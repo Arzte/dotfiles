@@ -1,0 +1,136 @@
+/*
+ * Bluesky stylesheet for TeamSpeak 3 client
+ * Created by Christine Strempel
+ * This work is licensed under a Creative Commons Attribution 3.0 Germany License, see http://creativecommons.org/licenses/by/3.0/de/
+ */
+
+QDialog, TextBrowser, QAbstractItemView, QTextEdit, QWidget#MainWindowServerTabsWidget, QWidget#MainWindowChatWidget, QSplitter, QStatusBar {
+	background: #d5edf8;
+	color:#000;
+}
+/*QWidget*/
+QWidget#Bookmarksmanager, QWidget#ConnectionInfoDialog, QWidget#PermServerGroupWidget, QWidget#PermChannelGroupWidget, QWidget#PermChannelWidget, QWidget#PermClientWidget, QWidget#PermChannelClientWidget, QWidget#UrlCatcherViewer, QWidget#FileTransferView, QWidget#FriendFoeManager, QWidget#ServerLogView, QWidget#ServerQueryView, QWidget#OfflineMessagesDialog, VADDisplay {
+	background: #d5edf8;
+}
+QToolBar {
+	border: transparent;
+	background: #d5edf8;
+	spacing: 5px;
+}
+QTabBar {
+	background-color: transparent;
+}
+QTabBar::tab {
+	background: #d5edf8;
+	border: 1px solid #0a057b;
+	color: #000;
+	min-width: 8ex;
+	padding: 3px;
+}
+QTabBar::tab:selected, QTabBar::tab:hover {
+	background: #c2d7e1;
+}
+QTabBar::tab:selected {
+	border-color: #6a96b9;
+	border-bottom-color: #6a96b9;
+}
+QTabBar::tab:selected:top {
+	border-top-color: #0a057b;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	margin-top: 3px;
+}
+QTabBar::tab:selected:bottom {
+	border-bottom-color: #0a057b;
+}
+QTabBar::tab:!selected:top {
+	border-top-color: #0a057b;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	margin-top: 5px;
+}
+QTabBar::tab:!selected:bottom {
+	border-bottom-color: #0a057b;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	margin-bottom: 5px;
+}
+ImprovedTabBarCloseButton {
+	background-color: none;
+	border: 1px solid #0a057b;
+	border-radius: 3px;
+}
+ImprovedTabBarCloseButton:hover {
+	background-color: transparent;
+	border: 1px solid #0a057b;
+	border-radius: 3px;
+}
+QMenu::item {
+	background: #d5edf8;
+}
+
+QSplitter QWidget {
+	background: #d5edf8;
+}
+QSplitter {
+	background: transparent;
+}
+QSplitter::handle {
+     	background-color: transparent;
+}
+
+QSplitter::handle:horizontal {
+     	background-color: transparent;
+ 	width: 2px;
+}
+
+QSplitter::handle:vertical {
+     	background-color: transparent;
+ 	height: 2px;
+}
+QComboBox {
+	border:1px solid #0a057b;
+	border-radius: 3px;
+	background: transparent;
+	color: #000;
+	padding: 2px;
+	selection-background-color: #7c8eb5;
+	color: #000;
+}
+QComboBox QAbstractItemView {
+	background: #d5edf8;
+	border: 1px solid #0a057b;
+}
+QSpinBox, QDoubleSpinBox#delayPTTSpinBox {
+     	padding-right: 15px; /* make room for the arrows */
+     	border-width: 1;
+}
+QSpinBox::up-button, QDoubleSpinBox#delayPTTSpinBox::up-button {
+	border: 1px solid transparent;
+     	image: url("styles:bluesky/up_arrow.png");
+}
+QSpinBox::up-button:hover, QDoubleSpinBox#delayPTTSpinBox:hover {
+	border: 1px solid #0a057b;
+     	background-color: #a5d3e8;
+     	image: url("styles:bluesky/up_arrow.png");
+}
+QSpinBox::down-button, QDoubleSpinBox#delayPTTSpinBox::down-button {
+	border: 1px solid transparent;
+     	image: url("styles:bluesky/down_arrow.png");
+}
+QSpinBox::down-button:hover, QDoubleSpinBox#delayPTTSpinBox:hover {
+	border: 1px solid #0a057b;
+	background-color: #a5d3e8;
+	image: url("styles:bluesky/down_arrow.png");
+}
+/* Excluding background for specific elements */
+QLabel, QCheckBox, QRadioButton, QGroupBox, QSlider, HeadlineLabel, QFrame#bookmarksTopFrame, QWidget#advancedWidget, QWidget#statusChangeWidget, QWidget#connectToWidget, QWidget#switchToWidget, QWidget#disableWidget, QWidget#activateWidget, QWidget#recordingWidget, ImprovedTabBarCloseButton {
+	background: none;
+}
+
+QTextEdit#InfoFrame {
+     background-image: url('styles:default/logo-128x128.png');
+     background-repeat: none;
+     background-position: top right;
+     background-attachment: fixed;
+}

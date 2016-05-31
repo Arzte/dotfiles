@@ -1,0 +1,9 @@
+T 1456062850 19*	Now talking on 22#openbox
+T 1456062850 22*	Topic for 22#openbox is: 3.6.1 || feel free to read the documentation on http://openbox.org before asking questions
+T 1456062850 22*	Topic for 22#openbox set by 26Mikachu!~Mikachu@0000fb7d.user.oftc.net (24Wed Jul  1 05:37:30 2015)
+T 1456062902 20<Doctors>30	Is there a way I can set just the windows super key to lanch something? Without pressing any other keys?
+T 1456063107 18<Mikachu18>	yes but it will always launch that when you press it then (eg, even if you also press another key)
+T 1456064673 24*	semeion has quit (Quit: WeeChat 1.4)
+T 1456064919 20<Doctors>30	on dang
+T 1456064928 20<Doctors>30	thanks
+T 1456064931 FiSHLiM plugin unloaded

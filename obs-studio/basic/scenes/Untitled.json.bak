@@ -1,0 +1,1070 @@
+{
+    "AuxAudioDevice1": {
+        "enabled": true,
+        "flags": 0,
+        "hotkeys": {
+            "libobs.mute": [],
+            "libobs.push-to-mute": [],
+            "libobs.push-to-talk": [],
+            "libobs.unmute": []
+        },
+        "id": "pulse_input_capture",
+        "mixers": 15,
+        "muted": false,
+        "name": "Mic/Aux",
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "settings": {
+            "device_id": "default"
+        },
+        "sync": 0,
+        "volume": 1.0
+    },
+    "DesktopAudioDevice1": {
+        "enabled": true,
+        "flags": 0,
+        "hotkeys": {
+            "libobs.mute": [],
+            "libobs.push-to-mute": [],
+            "libobs.push-to-talk": [],
+            "libobs.unmute": []
+        },
+        "id": "pulse_output_capture",
+        "mixers": 15,
+        "muted": false,
+        "name": "Desktop Audio",
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "settings": {
+            "device_id": "default"
+        },
+        "sync": 0,
+        "volume": 1.0
+    },
+    "current_program_scene": "Regular w/o Webcam",
+    "current_scene": "Regular w/o Webcam",
+    "current_transition": "Fade",
+    "name": "Untitled",
+    "quick_transitions": [
+        {
+            "duration": 300,
+            "hotkeys": [],
+            "id": 1,
+            "name": "Cut"
+        },
+        {
+            "duration": 300,
+            "hotkeys": [],
+            "id": 2,
+            "name": "Fade"
+        }
+    ],
+    "scene_order": [
+        {
+            "name": "Regular"
+        },
+        {
+            "name": "Regular w/o Webcam"
+        },
+        {
+            "name": "Minecraft"
+        },
+        {
+            "name": "Minecraft w/o Webcam"
+        },
+        {
+            "name": "Window Capture"
+        },
+        {
+            "name": "Window Capture w/o Webcam"
+        },
+        {
+            "name": "Intro"
+        },
+        {
+            "name": "Intro 2"
+        }
+    ],
+    "sources": [
+        {
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_ft2_source",
+            "mixers": 0,
+            "muted": false,
+            "name": "Introduction 2",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "color1": 4294901760,
+                "drop_shadow": true,
+                "outline": true,
+                "text": "As per usual, the title says what I'll be doing.\nSo, without further ado...\nMy video!"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "key": "OBS_KEY_F6"
+                    }
+                ],
+                "libobs.hide_scene_item.Introduction 2": [],
+                "libobs.show_scene_item.Introduction 2": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "muted": false,
+            "name": "Intro 2",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Introduction 2",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 228.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.891966700553894,
+                            "y": 1.8918918371200562
+                        },
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_ft2_source",
+            "mixers": 0,
+            "muted": false,
+            "name": "Introduction",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "color1": 4294901760,
+                "drop_shadow": true,
+                "log_mode": false,
+                "outline": true,
+                "text": "Welcome to The_Doctors_Life! \nMy name is Doctors and I'll be your host today."
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "key": "OBS_KEY_F5"
+                    }
+                ],
+                "libobs.hide_scene_item.Introduction": [],
+                "libobs.show_scene_item.Introduction": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "muted": false,
+            "name": "Intro",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Introduction",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 273.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.7868421077728271,
+                            "y": 1.7866666316986084
+                        },
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_ft2_source",
+            "mixers": 0,
+            "muted": false,
+            "name": "Notice",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "color1": 4279506175,
+                "color2": 4279506175,
+                "text": "NOTICE: I do not have a mic, so don't bug me about speaking."
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_ft2_source",
+            "mixers": 0,
+            "muted": false,
+            "name": "Text (FreeType 2)",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "log_mode": false,
+                "text": "The_Doctors_Life"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Audio Output Capture (PulseAudio)": [],
+                "libobs.hide_scene_item.Full Screen Capture": [
+                    {
+                        "key": "OBS_KEY_F8"
+                    }
+                ],
+                "libobs.hide_scene_item.Notice": [],
+                "libobs.hide_scene_item.Text (FreeType 2)": [],
+                "libobs.hide_scene_item.Video Capture Device (V4L2)": [],
+                "libobs.show_scene_item.Audio Output Capture (PulseAudio)": [],
+                "libobs.show_scene_item.Full Screen Capture": [],
+                "libobs.show_scene_item.Notice": [],
+                "libobs.show_scene_item.Text (FreeType 2)": [],
+                "libobs.show_scene_item.Video Capture Device (V4L2)": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "muted": false,
+            "name": "Regular",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Audio Output Capture (PulseAudio)",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Full Screen Capture",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Video Capture Device (V4L2)",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.53125,
+                            "y": 0.53125
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Text (FreeType 2)",
+                        "pos": {
+                            "x": 1090.0,
+                            "y": 728.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Notice",
+                        "pos": {
+                            "x": 343.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "xcomposite_input",
+            "mixers": 0,
+            "muted": false,
+            "name": "Window Capture (Xcomposite)",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "capture_window": "71303170\r\nMinecraft 1.8.9\r\n",
+                "include_border": false,
+                "lock_x": false,
+                "show_cursor": true
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "pulse_output_capture",
+            "mixers": 15,
+            "muted": false,
+            "name": "Audio Output Capture (PulseAudio)",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {},
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "v4l2_input",
+            "mixers": 0,
+            "muted": false,
+            "name": "Video Capture Device (V4L2)",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "device_id": "/dev/video0",
+                "input": 0,
+                "pixelformat": 1448695129
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Audio Output Capture (PulseAudio)": [],
+                "libobs.hide_scene_item.Full Screen Capture": [
+                    {
+                        "key": "OBS_KEY_F9"
+                    }
+                ],
+                "libobs.hide_scene_item.Text (FreeType 2)": [],
+                "libobs.show_scene_item.Audio Output Capture (PulseAudio)": [],
+                "libobs.show_scene_item.Full Screen Capture": [],
+                "libobs.show_scene_item.Text (FreeType 2)": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "muted": false,
+            "name": "Regular w/o Webcam",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Audio Output Capture (PulseAudio)",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Full Screen Capture",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Text (FreeType 2)",
+                        "pos": {
+                            "x": 1090.0,
+                            "y": 728.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "key": "OBS_KEY_F6"
+                    }
+                ],
+                "libobs.hide_scene_item.Audio Output Capture (PulseAudio)": [],
+                "libobs.hide_scene_item.Notice": [],
+                "libobs.hide_scene_item.Text (FreeType 2)": [],
+                "libobs.hide_scene_item.Video Capture Device (V4L2)": [],
+                "libobs.hide_scene_item.Window Capture (Xcomposite)": [],
+                "libobs.show_scene_item.Audio Output Capture (PulseAudio)": [],
+                "libobs.show_scene_item.Notice": [],
+                "libobs.show_scene_item.Text (FreeType 2)": [],
+                "libobs.show_scene_item.Video Capture Device (V4L2)": [],
+                "libobs.show_scene_item.Window Capture (Xcomposite)": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "muted": false,
+            "name": "Minecraft",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Window Capture (Xcomposite)",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Audio Output Capture (PulseAudio)",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Video Capture Device (V4L2)",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.53125,
+                            "y": 0.53125
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Text (FreeType 2)",
+                        "pos": {
+                            "x": 1090.0,
+                            "y": 728.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Notice",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "key": "OBS_KEY_F7"
+                    }
+                ],
+                "libobs.hide_scene_item.Audio Output Capture (PulseAudio)": [],
+                "libobs.hide_scene_item.Text (FreeType 2)": [],
+                "libobs.hide_scene_item.Window Capture (Xcomposite)": [],
+                "libobs.show_scene_item.Audio Output Capture (PulseAudio)": [],
+                "libobs.show_scene_item.Text (FreeType 2)": [],
+                "libobs.show_scene_item.Window Capture (Xcomposite)": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "muted": false,
+            "name": "Minecraft w/o Webcam",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Window Capture (Xcomposite)",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Audio Output Capture (PulseAudio)",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Text (FreeType 2)",
+                        "pos": {
+                            "x": 1090.0,
+                            "y": 728.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "xshm_input",
+            "mixers": 0,
+            "muted": false,
+            "name": "Full Screen Capture",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {},
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "key": "OBS_KEY_F10"
+                    }
+                ],
+                "libobs.hide_scene_item.Audio Output Capture (PulseAudio)": [],
+                "libobs.hide_scene_item.Chrome": [],
+                "libobs.hide_scene_item.Notice": [],
+                "libobs.hide_scene_item.Text (FreeType 2)": [],
+                "libobs.hide_scene_item.Video Capture Device (V4L2)": [],
+                "libobs.show_scene_item.Audio Output Capture (PulseAudio)": [],
+                "libobs.show_scene_item.Chrome": [],
+                "libobs.show_scene_item.Notice": [],
+                "libobs.show_scene_item.Text (FreeType 2)": [],
+                "libobs.show_scene_item.Video Capture Device (V4L2)": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "muted": false,
+            "name": "Window Capture",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Chrome",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Audio Output Capture (PulseAudio)",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Video Capture Device (V4L2)",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.53125,
+                            "y": 0.53125
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Text (FreeType 2)",
+                        "pos": {
+                            "x": 1090.0,
+                            "y": 728.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Notice",
+                        "pos": {
+                            "x": 343.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "key": "OBS_KEY_F11"
+                    }
+                ],
+                "libobs.hide_scene_item.Audio Output Capture (PulseAudio)": [],
+                "libobs.hide_scene_item.Chrome": [],
+                "libobs.hide_scene_item.Notice": [],
+                "libobs.hide_scene_item.Text (FreeType 2)": [],
+                "libobs.show_scene_item.Audio Output Capture (PulseAudio)": [],
+                "libobs.show_scene_item.Chrome": [],
+                "libobs.show_scene_item.Notice": [],
+                "libobs.show_scene_item.Text (FreeType 2)": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "muted": false,
+            "name": "Window Capture w/o Webcam",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Chrome",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Audio Output Capture (PulseAudio)",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Text (FreeType 2)",
+                        "pos": {
+                            "x": 1090.0,
+                            "y": 728.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Notice",
+                        "pos": {
+                            "x": 203.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "xcomposite_input",
+            "mixers": 0,
+            "muted": false,
+            "name": "Chrome",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "capture_window": "29360129\r\nKONOSUBA Episode 10 English Sub - Watch Video Online - 9PlayIt - Chromium\r\n",
+                "include_border": true,
+                "lock_x": true,
+                "swap_redblue": false
+            },
+            "sync": 0,
+            "volume": 1.0
+        }
+    ],
+    "transition_duration": 300
+}

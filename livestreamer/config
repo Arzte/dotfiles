@@ -1,0 +1,14 @@
+hls-segment-threads=3
+hds-segment-threads=3
+stream-segment-threads=3
+player-no-close
+crunchyroll-username=The_Doctors_Life
+crunchyroll-password=01042000
+ringbuffer-size=64M
+stream-sorting-excludes=<480p
+default-stream=best
+# player-passthrough=hls,http,https,rtmp
+# verbose-player
+player=vlc --file-caching=5000 --play-and-exit
+#fifo
+player-http

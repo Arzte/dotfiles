@@ -1,0 +1,112 @@
+T 1459360496 19*	Now talking on 22#xbps
+T 1459360496 22*	Topic for 22#xbps is: http://www.voidlinux.eu || images: http://repo.voidlinux.eu/live/current || daily pkg update-check: http://repo.voidlinux.eu/void-updates/void-updates.txt
+T 1459360496 22*	Topic for 22#xbps set by 26xtraeme (24Tue Nov 10 13:32:09 2015)
+T 1459360496 22*	Channel 22#xbps url: 24http://www.voidlinux.eu
+T 1459360503 18<Gottox18>	that's the expected output of xbps-install -Sud 2
+T 1459360509 18<Seisatsu18>	oh yeah
+T 1459360519 20<The_Doctors_Life>30	wheres the location of xbps_buildir
+T 1459360520 18<Seisatsu18>	sudo xbps-install -Sudy 2&> xbps-debug
+T 1459360524 18<Gottox18>	hehe :)
+T 1459360526 18<Seisatsu18>	I can never remember how to do that right
+T 1459360533 20<The_Doctors_Life>30	I need to delete a file from there
+T 1459360550 18<Seisatsu18>	what's the correct way to redirect stderr again?
+T 1459360550 19<Gottox>	The_Doctors_Life: void-packages/masterdir/buildir
+T 1459360562 18<Gottox18>	Seisatsu: 2>&1
+T 1459360567 20<The_Doctors_Life>30	thanks
+T 1459360569 18<Seisatsu18>	right ok let's do it again
+T 1459360579 18<Gottox18>	*builddir
+T 1459360625 20<The_Doctors_Life>30	thats weird
+T 1459360628 20<The_Doctors_Life>30	nothing in there
+T 1459360636 18<Seisatsu18>	this output looks longer / more useful
+T 1459360649 18<Gottox18>	repeat after me: I will never ever remove a subpackage if I'm not perfectly sure nothing depends on it. :P
+T 1459360658 18<Seisatsu18>	http://hastebin.com/raw/colesopero
+T 1459360667 18<Seisatsu18>	there you go
+T 1459360717 18<Seisatsu18>	oh
+T 1459360731 18<Seisatsu18>	looks like some qt5-x packages are just being replaced by qt5
+T 1459360737 18<Seisatsu18>	at the bottom here
+T 1459360742 18<Gottox18>	Seisatsu: can you remove qt5-quick1?
+T 1459360748 18<Seisatsu18>	I'll try it out
+T 1459360781 24*	GangstaCat has quit (Quit: Leaving)
+T 1459360782 18<Seisatsu18>	alright the system is fixed \o/
+T 1459360799 18<Seisatsu18>	xbps ought to be able to point out a conflict like this
+T 1459360817 18<Seisatsu18>	rather than getting confused this way
+T 1459360818 18<eater18>	then now, why does quick1 depend on 5.5
+T 1459360837 18<Gottox18>	eater: qt5-quick was removed from qt5
+T 1459360858 18<Seisatsu18>	so why does xbps then complain about qt5-script instead of the real culprit
+T 1459360860 18<eater18>	no way to mark packages as removed?
+T 1459360864 18<Seisatsu18>	^
+T 1459360882 18<Seisatsu18>	feature request?
+T 1459360904 18<Gottox18>	This can be done via replaces.
+T 1459360942 18<Seisatsu18>	so was it just done incorrectly by the package maintainers this time, or is this some unusual case?
+T 1459360979 18<Seisatsu18>	hiccups like this seem to happen to xbps once every few months or so for me but they're usually easy to resolve
+T 1459361062 18<Gottox18>	well... actually it's a common mistake.
+T 1459361104 18<Gottox18>	what happened: qt5-quick was removed from qt, so on an update the old version stayed. the same.
+T 1459361137 -18xbps-builder/22#xbps-	4567e19, a0a0493, a37c17f, 7cde9f4, 206f2b1, 5a0c7df, 3c2ed09, d37d56e, 05d5c47, 41bb138, c0f7cf9, e505713, a74304b/armv6l_builder: Fail: http://build.voidlinux.eu/builders/armv6l_builder/builds/23089  blame: Toyam Cox <Vaelatern@gmail.com>, J?rgen Buchm?ller <pullmoll@t-online.de>, Michael Gehring <mg@ebfe.org>, Juan RP <xtraeme@voidlinux.eu>
+T 1459361140 -18xbps-builder/22#xbps-	4567e19, a0a0493, a37c17f, 7cde9f4, 206f2b1, 5a0c7df, 3c2ed09, d37d56e, 05d5c47, 41bb138, c0f7cf9, e505713, a74304b/armv7l_builder: Fail: http://build.voidlinux.eu/builders/armv7l_builder/builds/23121  blame: Toyam Cox <Vaelatern@gmail.com>, J?rgen Buchm?ller <pullmoll@t-online.de>, Michael Gehring <mg@ebfe.org>, Juan RP <xtraeme@voidlinux.eu>
+T 1459361147 -18xbps-builder/22#xbps-	a74304b/x86_64_builder: Fail: http://build.voidlinux.eu/builders/x86_64_builder/builds/22101  blame: Juan RP <xtraeme@voidlinux.eu>
+T 1459361148 18<Gottox18>	unfortunately qt-quick1 depends on an shared library, that had another so version in the new qt-version.
+T 1459361224 18<Gottox18>	so xbps detected a so file that couldn't be fulfilled and failed.
+T 1459361231 20<The_Doctors_Life>30	Is there a way to clear the builddir through xbps for a package?
+T 1459361245 -18xbps-builder/22#xbps-	a0a0493, a37c17f, 7cde9f4, 206f2b1, 5a0c7df, 3c2ed09, d37d56e, 05d5c47, 41bb138, c0f7cf9, e505713, a74304b/i686_builder: Fail: http://build.voidlinux.eu/builders/i686_builder/builds/21889  blame: J?rgen Buchm?ller <pullmoll@t-online.de>, Michael Gehring <mg@ebfe.org>, Juan RP <xtraeme@voidlinux.eu>
+T 1459361263 19<Gottox>	The_Doctors_Life: there's xbps-src clean and xbps-src zap
+T 1459361272 20<The_Doctors_Life>30	thanks
+T 1459361272 18<Gottox18>	zap will clean the whole masterdir
+T 1459361292 18<Gottox18>	useful if a package writes to / instead of $DESTDIR.
+T 1459361311 -18xbps-builder/22#xbps-	c6d428b/armv6l_builder: Fail: http://build.voidlinux.eu/builders/armv6l_builder/builds/23090  blame: Toyam Cox <Vaelatern@gmail.com>
+T 1459361318 -18xbps-builder/22#xbps-	c6d428b/armv7l_builder: Fail: http://build.voidlinux.eu/builders/armv7l_builder/builds/23122  blame: Toyam Cox <Vaelatern@gmail.com>
+T 1459361897 20<The_Doctors_Life>30	even zap doesn't work
+T 1459361924 18<Gottox18>	then we're talking about two different things here.
+T 1459361925 20<The_Doctors_Life>30	where would xbps-uhelper fetch url>thing go
+T 1459361931 18<Gottox18>	ah.
+T 1459361961 18<Gottox18>	that's not builddir ;)
+T 1459361970 18<Gottox18>	hostdir/sources/pkgname-version
+T 1459362003 18<Gottox18>	or hostdir/sources
+T 1459362009 20<The_Doctors_Life>30	omg
+T 1459362013 18<Gottox18>	not sure atm.
+T 1459362013 20<The_Doctors_Life>30	thanks so much
+T 1459362014 24*	Turingtoast has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+T 1459362023 23*	GangstaCat (~Soak@5.79.74.16723) has joined
+T 1459362024 20<The_Doctors_Life>30	first was correct
+T 1459362080 23*	Turingtoast (~Tino@p548C55A5.dip0.t-ipconnect.de23) has joined
+T 1459362180 18<Gottox18>	xtraeme: any idea how I can test the changes in xbps-create? the behavior of nftw() depends on the underlying filesystem, so it's hard to predict.
+T 1459362293 20<The_Doctors_Life>30	Is there any reason that xbps runs the pre section in INSTALL during xbps-src pkg and in xbps-install?
+T 1459362398 20<The_Doctors_Life>30	scratch that
+T 1459362485 20<The_Doctors_Life>30	why would I still be getting "file is identical with remote." when using xbps-uhelper during xbps-install? even after removing the file after it was downloaded during xbps-src pkg?
+T 1459362648 23*	void-pkgs (~void-pkgs@192.30.252.4623) has joined
+T 1459362649 -18void-pkgs/22#xbps-	[void-packages] Gottox pushed 1 new commit to master: https://git.io/vVObo
+T 1459362649 -18void-pkgs/22#xbps-	void-packages/master c4f87ce Enno Boland: xchat: broken due to libressl-2.3.
+T 1459362649 24*	void-pkgs (~void-pkgs@192.30.252.4624) has left
+T 1459362715 19<Gottox>	The_Doctors_Life: xbps-src clean does not help?
+T 1459362728 20<The_Doctors_Life>30	nor zap
+T 1459362742 20<The_Doctors_Life>30	nor removing the file after xbps-src pkg downloads it
+T 1459362752 20<The_Doctors_Life>30	then attempting to xbps-install it
+T 1459362754 18<Gottox18>	find /path/to/void-packages -name filename?
+T 1459362766 18<Gottox18>	xbps-install?
+T 1459362769 18<Gottox18>	in xbps-src?
+T 1459362778 20<The_Doctors_Life>30	sorry
+T 1459362815 20<The_Doctors_Life>30	xbps-src downloads a file using xbps-uhelper labled in the pre section of a packages INSTALL file
+T 1459362848 18<Gottox18>	ah.
+T 1459362852 20<The_Doctors_Life>30	when using xbps-install to install the package on my system, it fails with the file is identical error
+T 1459362867 18<Gottox18>	so your trying a client side install like with oracle-jdk
+T 1459362878 20<The_Doctors_Life>30	indeed
+T 1459362910 18<Gottox18>	then the file may be somewhere in the root directory.
+T 1459362932 18<Gottox18>	iirc xbps-install changes the working directory to /
+T 1459362951 20<The_Doctors_Life>30	I didn't know that
+T 1459362964 20<The_Doctors_Life>30	alright, thanks
+T 1459363006 18<Gottox18>	xbps-src is only used when building a package. xbps-install works without xbps-src.
+T 1459363026 18<Gottox18>	and xbps-install is completely independant of void-packages.
+T 1459363052 20<The_Doctors_Life>30	I'm installing via. source
+T 1459363061 20<The_Doctors_Life>30	to test changes to a package
+T 1459363072 20<The_Doctors_Life>30	so I need to use both to install
+T 1459363080 18<Gottox18>	okay.
+T 1459363100 20<The_Doctors_Life>30	Thanks for all your help
+T 1459363107 18<Gottox18>	no problemo :)
+T 1459363122 18<Gottox18>	xbps-install only sees the repository. it doesn't care about anything else in void-packages.
+T 1459363147 20<The_Doctors_Life>30	ah, I wasn't aware of that
+T 1459363160 20<The_Doctors_Life>30	it must not be to visable in the manual
+T 1459363283 24*	Turingtoast has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+T 1459363322 18<Gottox18>	okay. the authors of the manual are using the system for years. It may, that they are blind for some things. :)
+T 1459390403 19*	Now talking on 22#xbps
+T 1459390403 22*	Topic for 22#xbps is: http://www.voidlinux.eu || images: http://repo.voidlinux.eu/live/current || daily pkg update-check: http://repo.voidlinux.eu/void-updates/void-updates.txt
+T 1459390403 22*	Topic for 22#xbps set by 26xtraeme (24Tue Nov 10 13:32:09 2015)
+T 1459390403 22*	Channel 22#xbps url: 24http://www.voidlinux.eu

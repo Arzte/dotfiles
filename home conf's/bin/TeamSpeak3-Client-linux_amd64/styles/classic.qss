@@ -1,0 +1,82 @@
+/*
+ * TeamSpeak 3 Classic Qt StyleSheet
+ * This is a copy of the default style with a more colorful chat stylesheet.
+ * Unfortunately Qt Stylesheets don't support @import, so we have to copy the files.
+ *
+ * Copyright (c) 2009-2015 TeamSpeak Systems GmbH
+ */
+
+/* Use this to change the application default font. By default we leave it up to Qt to decide which font to pick. */
+/*QWidget {
+	font-family: "Segoe UI";
+	font-size: 9pt;
+}*/
+
+QTextEdit#ChatLineEdit[helpTextVisible="true"]  {
+ color: #909090;
+}
+
+QTextEdit#ChatLineEdit[helpTextVisible="false"] {
+ color: normal;
+}
+
+QStatusBar QLabel {
+  padding: 0px 3px;
+  border: 0px;
+}
+
+QTextEdit#InfoFrame {
+     background-color: palette(base);
+     background-image: url('styles:classic/logo-128x128.png');
+     background-repeat: none;
+     background-position: top right;
+     background-attachment: fixed;
+}
+
+QTextEdit#ChatTab {
+     background-color: palette(base);
+     background-image: url('styles:classic/chatlog-128x96.png');
+     background-repeat: none;
+     background-position: bottom right;
+     background-attachment: fixed;
+}
+
+QListWidget#localIconsListWidget::item:selected, QListWidget#remoteIconsListWidget::item:selected {
+	border: 1px solid darkGray;
+}
+
+QTreeView#ServerTreeView {
+	alternate-background-color: transparent;
+	qproperty-rootIsDecorated: false;
+}
+
+QLabel#OptionsHeadlineTitleLabel {
+	color: white;
+	font-weight: bold;
+}
+
+QLabel#OptionsHeadlineDescriptionLabel {
+	color: white;
+}
+
+QToolButton#newBookmarkButton, QToolButton#newBookmarkFolderButton, QToolButton#removeBookmarkButton {
+	color: white;
+}
+
+QToolButton#newBookmarkButton:hover, QToolButton#newBookmarkFolderButton:hover, QToolButton#removeBookmarkButton:hover {
+	color: black;
+}
+
+QLabel#NewsLeftLabel {
+	padding-right: 6px;
+}
+
+QTableView#clientsTableView, QTableView#banTableView {
+	qproperty-alternatingRowColors: true;
+}
+
+QLabel#appNameLabel {
+	color: #455573;
+	font-weight: bold;
+	font-size: 24px;
+}

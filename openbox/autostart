@@ -1,0 +1,23 @@
+# Run compton
+compton &
+
+# Run kupfer
+kupfer &
+
+# Set the wallpaper
+hsetroot -center /home/benjamin/Pictures/backrounds/voidwallpaper_v5.png &
+
+#Start a power manager
+xfce4-power-manager &
+
+# Start the Dock
+plank &
+
+# Numlock
+numlockx on &
+
+# Start discord
+/home/benjamin/Downloads/DiscordCanary/DiscordCanary &
+
+#Start Conky
+(sleep 5 && conky) &

@@ -1,0 +1,258 @@
+05:28:34 PM.231: Processor: 2 logical cores
+05:28:34 PM.231: Processor: AMD Turion Dual-Core RM-75
+05:28:34 PM.232: Physical Memory: 2760MB Total
+05:28:34 PM.232: Kernel Version: Linux 4.4.3_1
+05:28:34 PM.307: Distribution: "void" Unknown
+05:28:34 PM.437: OBS 0.0.1 (linux)
+05:28:34 PM.437: ---------------------------------
+05:28:34 PM.438: ---------------------------------
+05:28:34 PM.438: audio settings reset:
+05:28:34 PM.438: 	samples per sec: 44100
+05:28:34 PM.438: 	speakers:        2
+05:28:34 PM.691: OpenGL version: 3.3 (Core Profile) Mesa 11.1.2
+05:28:34 PM.691: 
+05:28:34 PM.975: ---------------------------------
+05:28:34 PM.975: video settings reset:
+05:28:34 PM.975: 	base resolution:   1366x768
+05:28:34 PM.975: 	output resolution: 1092x614
+05:28:34 PM.975: 	fps:               30/1
+05:28:34 PM.975: 	format:            NV12
+05:28:34 PM.982: ---------------------------------
+05:28:34 PM.984: Loading module: image-source.so
+05:28:34 PM.984: ---------------------------------
+05:28:34 PM.986: Loading module: linux-capture.so
+05:28:34 PM.988: ---------------------------------
+05:28:34 PM.990: Loading module: linux-decklink.so
+05:28:34 PM.991: No blackmagic support
+05:28:34 PM.991: Failed to start search for DeckLink devices
+05:28:34 PM.991: ---------------------------------
+05:28:34 PM.992: Loading module: linux-jack.so
+05:28:34 PM.992: ---------------------------------
+05:28:34 PM.993: Loading module: linux-pulseaudio.so
+05:28:34 PM.994: ---------------------------------
+05:28:34 PM.995: Loading module: linux-v4l2.so
+05:28:34 PM.995: ---------------------------------
+05:28:34 PM.998: Loading module: obs-ffmpeg.so
+05:28:34 PM.998: ---------------------------------
+05:28:34 PM.999: Loading module: obs-filters.so
+05:28:35 PM.000: ---------------------------------
+05:28:35 PM.001: Loading module: obs-outputs.so
+05:28:35 PM.001: ---------------------------------
+05:28:35 PM.002: Loading module: obs-transitions.so
+05:28:35 PM.002: ---------------------------------
+05:28:35 PM.003: Loading module: obs-x264.so
+05:28:35 PM.003: ---------------------------------
+05:28:35 PM.004: Loading module: rtmp-services.so
+05:28:35 PM.005: ---------------------------------
+05:28:35 PM.007: Loading module: text-freetype2.so
+05:28:35 PM.007: =====================================================================
+05:28:35 PM.007: output 'simple_stream' (rtmp_output) created
+05:28:35 PM.007: encoder 'simple_h264_stream' (obs_x264) created
+05:28:35 PM.007: AAC encoder bitrate mapping:
+05:28:35 PM.007: 	 32 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+05:28:35 PM.007: 	 64 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+05:28:35 PM.007: 	 96 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+05:28:35 PM.007: 	128 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+05:28:35 PM.007: 	160 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+05:28:35 PM.007: 	192 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+05:28:35 PM.007: 	224 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+05:28:35 PM.007: 	256 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+05:28:35 PM.007: 	288 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+05:28:35 PM.007: 	320 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+05:28:35 PM.007: encoder 'simple_aac' (ffmpeg_aac) created
+05:28:35 PM.008: output 'simple_file_output' (ffmpeg_muxer) created
+05:28:35 PM.008: Service '' not found
+05:28:35 PM.008: service 'default_service' (rtmp_common) created
+05:28:35 PM.044: No scene file found, creating default scene
+05:28:35 PM.048: All scene data cleared
+05:28:35 PM.048: ------------------------------------------------
+05:28:35 PM.197: source 'Scene' (scene) created
+05:28:35 PM.387: pulse-input: Server name: 'pulseaudio 8.0-rebootstrapped'
+05:28:35 PM.387: pulse-input: Sample spec is not valid
+05:28:35 PM.388: Failed to create source 'Desktop Audio'!
+05:28:35 PM.388: source 'Desktop Audio' (pulse_output_capture) created
+05:28:35 PM.394: pulse-input: Server name: 'pulseaudio 8.0-rebootstrapped'
+05:28:35 PM.395: pulse-input: Sample spec is not valid
+05:28:35 PM.396: Failed to create source 'Mic/Aux'!
+05:28:35 PM.396: source 'Mic/Aux' (pulse_input_capture) created
+05:28:35 PM.396: Failed to glob scene collections
+05:28:35 PM.520: == Profiler Results =============================
+05:28:35 PM.520: run_program_init: 6763.12 ms
+05:28:35 PM.520:  ┣OBSApp::AppInit: 66.494 ms
+05:28:35 PM.520:  ┃ ┗OBSApp::InitLocale: 2.67 ms
+05:28:35 PM.520:  ┗OBSApp::OBSInit: 5998.57 ms
+05:28:35 PM.520:    ┣obs_startup: 79.638 ms
+05:28:35 PM.520:    ┗OBSBasic::OBSInit: 1082.08 ms
+05:28:35 PM.520:      ┣OBSBasic::InitBasicConfig: 0.895 ms
+05:28:35 PM.520:      ┣OBSBasic::ResetAudio: 0.396 ms
+05:28:35 PM.521:      ┣OBSBasic::ResetVideo: 543.34 ms
+05:28:35 PM.521:      ┣OBSBasic::InitOBSCallbacks: 0.013 ms
+05:28:35 PM.521:      ┣OBSBasic::InitHotkeys: 0.079 ms
+05:28:35 PM.521:      ┣obs_load_all_modules: 24.994 ms
+05:28:35 PM.521:      ┃ ┣obs_init_module(image-source.so): 0.005 ms
+05:28:35 PM.521:      ┃ ┣obs_init_module(linux-capture.so): 1.682 ms
+05:28:35 PM.521:      ┃ ┣obs_init_module(linux-decklink.so): 0.337 ms
+05:28:35 PM.521:      ┃ ┣obs_init_module(linux-jack.so): 0.007 ms
+05:28:35 PM.521:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.007 ms
+05:28:35 PM.521:      ┃ ┣obs_init_module(linux-v4l2.so): 0.006 ms
+05:28:35 PM.521:      ┃ ┣obs_init_module(obs-ffmpeg.so): 0.012 ms
+05:28:35 PM.521:      ┃ ┣obs_init_module(obs-filters.so): 0.02 ms
+05:28:35 PM.521:      ┃ ┣obs_init_module(obs-outputs.so): 0.005 ms
+05:28:35 PM.521:      ┃ ┣obs_init_module(obs-transitions.so): 0.01 ms
+05:28:35 PM.521:      ┃ ┣obs_init_module(obs-x264.so): 0.004 ms
+05:28:35 PM.521:      ┃ ┣obs_init_module(rtmp-services.so): 0.446 ms
+05:28:35 PM.521:      ┃ ┗obs_init_module(text-freetype2.so): 0.135 ms
+05:28:35 PM.521:      ┣OBSBasic::ResetOutputs: 0.508 ms
+05:28:35 PM.521:      ┣OBSBasic::CreateHotkeys: 0.039 ms
+05:28:35 PM.521:      ┣OBSBasic::InitService: 0.091 ms
+05:28:35 PM.521:      ┣OBSBasic::InitPrimitives: 36.324 ms
+05:28:35 PM.521:      ┗OBSBasic::Load: 351.918 ms
+05:28:35 PM.521: =================================================
+05:28:35 PM.928: Update check: last known remote version is 0.4.0
+05:28:59 PM.533: Settings changed (general)
+05:28:59 PM.533: ------------------------------------------------
+05:29:37 PM.538: service 'default_service' (rtmp_common) created
+05:29:37 PM.538: service 'default_service' destroyed
+05:29:37 PM.538: Settings changed (stream 1)
+05:29:37 PM.538: ------------------------------------------------
+05:30:48 PM.877: encoder 'simple_h264_stream' destroyed
+05:30:48 PM.877: encoder 'simple_aac' destroyed
+05:30:48 PM.877: output 'simple_stream' destroyed
+05:30:48 PM.877: output 'simple_file_output' destroyed
+05:30:48 PM.877: output 'simple_stream' (rtmp_output) created
+05:30:48 PM.878: encoder 'simple_h264_stream' (obs_x264) created
+05:30:48 PM.878: encoder 'simple_aac' (ffmpeg_aac) created
+05:30:48 PM.878: output 'simple_file_output' (ffmpeg_muxer) created
+05:30:48 PM.878: Settings changed (outputs, audio)
+05:30:48 PM.878: ------------------------------------------------
+05:30:53 PM.419: ---------------------------------
+05:30:53 PM.419: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+05:30:53 PM.419: [x264 encoder: 'simple_h264_stream'] profile: main
+05:30:53 PM.442: [x264 encoder: 'simple_h264_stream'] settings:
+05:30:53 PM.442: 	bitrate:     2500
+05:30:53 PM.442: 	buffer size: 2500
+05:30:53 PM.442: 	crf:         0 (0 when CBR is enabled)
+05:30:53 PM.442: 	fps_num:     30
+05:30:53 PM.442: 	fps_den:     1
+05:30:53 PM.442: 	width:       1092
+05:30:53 PM.442: 	height:      614
+05:30:53 PM.442: 	keyint:      60
+05:30:53 PM.442: 	vfr:         off
+05:30:53 PM.442: 	cbr:         on
+05:30:53 PM.504: ---------------------------------
+05:30:53 PM.564: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2
+05:30:53 PM.623: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://live-ord.twitch.tv/app...
+05:30:59 PM.106: RTMPSockBuf_Fill, remote host closed connection
+05:30:59 PM.107: [rtmp stream: 'simple_stream'] Connection to rtmp://live-ord.twitch.tv/app failed: -3
+05:30:59 PM.108: ==== Streaming Stop ================================================
+05:37:56 PM.809: service 'default_service' (rtmp_common) created
+05:37:56 PM.809: service 'default_service' destroyed
+05:37:56 PM.810: Settings changed (stream 1)
+05:37:56 PM.810: ------------------------------------------------
+05:38:01 PM.799: ---------------------------------
+05:38:01 PM.799: [x264 encoder: 'simple_h264_stream'] settings:
+05:38:01 PM.799: 	bitrate:     2500
+05:38:01 PM.799: 	buffer size: 2500
+05:38:01 PM.799: 	crf:         0 (0 when CBR is enabled)
+05:38:01 PM.799: 	fps_num:     30
+05:38:01 PM.799: 	fps_den:     1
+05:38:01 PM.799: 	width:       1092
+05:38:01 PM.799: 	height:      614
+05:38:01 PM.799: 	keyint:      60
+05:38:01 PM.799: 	vfr:         off
+05:38:01 PM.799: 	cbr:         on
+05:38:01 PM.800: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://live-ord.twitch.tv/app...
+05:38:02 PM.945: [rtmp stream: 'simple_stream'] Connection to rtmp://live-ord.twitch.tv/app successful
+05:38:02 PM.946: ==== Streaming Start ===============================================
+05:38:23 PM.491: xshm-input: Geometry 1366x768 @ 0,0
+05:38:23 PM.493: source 'Screen Capture (XSHM)' (xshm_input) created
+05:38:28 PM.416: xshm-input: Geometry 1366x768 @ 0,0
+05:38:29 PM.248: xshm-input: Geometry 1366x768 @ 0,0
+05:38:39 PM.842: pulse-input: Server name: 'pulseaudio 8.0-rebootstrapped'
+05:38:39 PM.845: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+05:38:39 PM.845: pulse-input: Started recording from 'alsa_output.pci-0000_00_07.0.analog-stereo.monitor'
+05:38:39 PM.845: source 'Audio Output Capture (PulseAudio)' (pulse_output_capture) created
+05:38:40 PM.691: adding 46 milliseconds of audio buffering, total audio buffering is now 46 milliseconds
+05:38:41 PM.075: adding 23 milliseconds of audio buffering, total audio buffering is now 69 milliseconds
+05:39:01 PM.694: pulse-input: Server name: 'pulseaudio 8.0-rebootstrapped'
+05:39:01 PM.695: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+05:39:01 PM.696: pulse-input: Started recording from 'alsa_output.pci-0000_00_07.0.analog-stereo.monitor'
+05:39:01 PM.696: source 'Audio Output Capture (PulseAudio) 1' (pulse_output_capture) created
+05:39:03 PM.655: adding 23 milliseconds of audio buffering, total audio buffering is now 92 milliseconds
+05:39:10 PM.668: source 'Audio Output Capture (PulseAudio) 1' destroyed
+05:39:10 PM.668: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_07.0.analog-stereo.monitor'
+05:39:10 PM.668: pulse-input: Got 1599 packets with 389706 frames
+05:39:19 PM.260: source 'Audio Output Capture (PulseAudio)' destroyed
+05:39:19 PM.261: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_07.0.analog-stereo.monitor'
+05:39:19 PM.261: pulse-input: Got 8612 packets with 1742564 frames
+05:39:44 PM.417: pulse-input: Server name: 'pulseaudio 8.0-rebootstrapped'
+05:39:44 PM.445: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+05:39:44 PM.445: pulse-input: Started recording from 'alsa_input.pci-0000_00_07.0.analog-stereo'
+05:39:44 PM.445: source 'Audio Input Capture (PulseAudio)' (pulse_input_capture) created
+05:39:51 PM.800: source 'Audio Input Capture (PulseAudio)' destroyed
+05:39:51 PM.802: pulse-input: Stopped recording from 'alsa_input.pci-0000_00_07.0.analog-stereo'
+05:39:51 PM.802: pulse-input: Got 610 packets with 300930 frames
+05:40:10 PM.077: source 'Scene' destroyed
+05:40:10 PM.077: source 'Screen Capture (XSHM)' destroyed
+05:40:10 PM.083: source 'Desktop Audio' destroyed
+05:40:10 PM.083: source 'Mic/Aux' destroyed
+05:40:10 PM.083: All scene data cleared
+05:40:10 PM.083: ------------------------------------------------
+05:40:10 PM.147: source 'Scene' (scene) created
+05:40:10 PM.150: Added scene collection 'Default' (clean, Default.json)
+05:40:10 PM.150: ------------------------------------------------
+05:40:14 PM.777: source 'Scene' destroyed
+05:40:14 PM.778: All scene data cleared
+05:40:14 PM.778: ------------------------------------------------
+05:40:14 PM.831: pulse-input: Server name: 'pulseaudio 8.0-rebootstrapped'
+05:40:14 PM.832: pulse-input: Sample spec is not valid
+05:40:14 PM.832: Failed to create source 'Desktop Audio'!
+05:40:14 PM.833: source 'Desktop Audio' (pulse_output_capture) created
+05:40:14 PM.852: pulse-input: Server name: 'pulseaudio 8.0-rebootstrapped'
+05:40:14 PM.852: pulse-input: Sample spec is not valid
+05:40:14 PM.853: Failed to create source 'Mic/Aux'!
+05:40:14 PM.853: source 'Mic/Aux' (pulse_input_capture) created
+05:40:14 PM.859: xshm-input: Geometry 1366x768 @ 0,0
+05:40:14 PM.912: source 'Screen Capture (XSHM)' (xshm_input) created
+05:40:14 PM.912: source 'Scene' (scene) created
+05:40:14 PM.932: Switched to scene collection 'Untitled' (Untitled.json)
+05:40:14 PM.933: ------------------------------------------------
+05:41:40 PM.477: [rtmp stream: 'simple_stream'] User stopped the stream
+05:41:40 PM.815: Output 'simple_stream': stopping
+05:41:40 PM.815: Output 'simple_stream': Total encoded frames: 6555
+05:41:40 PM.815: Output 'simple_stream': Total drawn frames: 6570
+05:41:40 PM.815: Output 'simple_stream': Number of skipped frames due to encoding lag: 2949 (45.0%)
+05:41:40 PM.815: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 4796 (73.0%)
+05:41:40 PM.815: Output 'simple_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 16 (0.2%)
+05:41:40 PM.831: ==== Streaming Stop ================================================
+05:41:47 PM.414: Switched to Preview/Program mode
+05:41:47 PM.414: ------------------------------------------------
+05:41:57 PM.967: Switched to regular Preview mode
+05:41:57 PM.967: ------------------------------------------------
+05:42:13 PM.159: xshm-input: Geometry 1366x768 @ 0,0
+05:42:17 PM.101: ---------------------------------
+05:42:17 PM.101: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+05:42:17 PM.101: [x264 encoder: 'simple_h264_stream'] profile: main
+05:42:17 PM.101: [x264 encoder: 'simple_h264_stream'] settings:
+05:42:17 PM.101: 	bitrate:     2500
+05:42:17 PM.101: 	buffer size: 2500
+05:42:17 PM.101: 	crf:         0 (0 when CBR is enabled)
+05:42:17 PM.101: 	fps_num:     30
+05:42:17 PM.101: 	fps_den:     1
+05:42:17 PM.101: 	width:       1092
+05:42:17 PM.101: 	height:      614
+05:42:17 PM.101: 	keyint:      60
+05:42:17 PM.101: 	vfr:         off
+05:42:17 PM.101: 	cbr:         on
+05:42:17 PM.197: ---------------------------------
+05:42:17 PM.197: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2
+05:42:17 PM.204: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://live-ord.twitch.tv/app...
+05:42:17 PM.908: [rtmp stream: 'simple_stream'] Connection to rtmp://live-ord.twitch.tv/app successful
+05:42:17 PM.910: ==== Streaming Start ===============================================
+05:44:34 PM.585: [rtmp stream: 'simple_stream'] User stopped the stream
+05:44:34 PM.824: Output 'simple_stream': stopping
+05:44:34 PM.824: Output 'simple_stream': Total encoded frames: 4121
+05:44:34 PM.824: Output 'simple_stream': Total drawn frames: 4128
+05:44:34 PM.825: Output 'simple_stream': Number of skipped frames due to encoding lag: 3657 (88.7%)
+05:44:34 PM.825: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 3345 (81.0%)
+05:44:34 PM.833: ==== Streaming Stop ================================================

@@ -1,0 +1,114 @@
+﻿TeamViewer® Endbenutzer-Lizenzvereinbarung
+ 
+
+Diese Endbenutzer-Lizenzvereinbarung einschließlich ihres Anhangs (“EULA”) wird zwischen Ihnen und der TeamViewer GmbH (“TeamViewer” oder “Wir”) für die Erteilung einer Lizenz für unsere Software und deren Benutzung geschlossen; die Lizenz umfasst die TeamViewer-Software mit allen Versionen, Funktionalitäten, Anwendungen und Modulen (“Software”). Unter diese EULA fallen auch alle zugehörigen Medien, Drucksachen und elektronischen Dokumente, die wir Ihnen (mit unserer Software und unserem "Produkt") zugänglich machen. Zukünftige Ausgaben unseres Produkts können Änderungen dieser EULA vorsehen.
+
+DURCH ANKLICKEN DER SCHALTFLÄCHE “ICH AKZEPTIERE”, HERUNTERLADEN ODER SONSTIGE BENUTZUNG UNSERER SOFTWARE STIMMEN SIE ALLEN BEDINGUNGEN DIESER EULA ZU. SOLLTEN SIE EINER DER BESTIMMUNGEN DIESER EULA NICHT ZUSTIMMEN, BITTEN WIR SIE, ALLE KOPIEN UNSERER SOFTWARE, DIE SICH IN IHREM BESITZ BEFINDEN, UNVERZÜGLICH ZURÜCKZUSENDEN, ZU LÖSCHEN ODER ZU VERNICHTEN.
+
+1. LIZENZERTEILUNG
+Wir erteilen Ihnen hiermit eine Lizenz zur Benutzung des Produkts für die Dauer, die auf ihrem Software-Bestellformular (“Software-Bestellformular”) angegeben ist. Die erteilte Lizenz ist nicht-ausschließlich und nicht übertragbar; ihr Umfang hängt vom Typ der von Ihnen erworbenen Lizenz ab und davon, ob Sie die Software für private oder gewerbliche Zwecke benutzen. Einzelheiten finden Sie in Ihren Produktunterlagen. “Produktunterlagen” bezeichnet Ihr Software-Bestellformular, die von uns unter www.teamviewer.com veröffentlichten Preisbedingungen oder alle schriftlichen Mitteilungen, die Sie von uns in Bezug auf Ihre Lizenz erhalten haben.
+
+Ist Ihre Lizenz auf eine bestimmte Anzahl von Arbeitsplätzen, virtualisierten Desktops oder Computern oder sonstiger Hardware mit multiplen Betriebssystemen beschränkt, zählt jeder dieser Plätze bei der Gesamtrechnung als einzelner Arbeitsplatz. Das Verschieben der Software auf einen anderen Arbeitsplatz ist beschränkt und nur für den Fall eines Ersatzes vorgesehen. Wird die Software in einer Terminalserver-Umgebung installiert, ist die Lizenz benutzerbasiert; d. h. für jeden Benutzer ist eine separate Lizenz erforderlich.
+
+Soll die Software von mehreren Nutzern gleichzeitig benutzt werden, benötigt jeder Nutzer eine entsprechende zusätzliche Lizenz.
+
+2. EINSCHRÄNKUNGEN
+Soweit in dieser EULA nicht ausdrücklich vorgesehen, dürfen Sie weder direkt noch indirekt:
+
+(i) 	
+ihre Lizenzrechte an eine andere natürliche oder juristische Person übertragen oder abtreten oder eine Unterlizenz für diese Lizenzrechte vergeben oder die Software für Dienstleistungen Dritter benutzen oder benutzen lassen; (Sie erkennen an, dass jede versuchte Übertragung, Abtretung, Vergabe einer Unterlizenz oder Benutzung unwirksam ist.);
+
+(ii) 	
+Produktfehler korrigieren oder das Produkt in sonstiger Weise verändern oder anpassen oder dekompilieren, entschlüsseln, disassemblieren, ein Reverse Engineering vornehmen oder versuchen, einen Quellcode oder zugrunde liegende Ideen, Algorithmen, Dateiformate oder Programmierungen oder Interoperabilitäts-Schnittstellen des Produkts oder im Produkt enthaltene oder bei der Benutzung des Produkts erstellte Dateien zu rekonstruieren oder zu ermitteln oder das Produkt in anderer Weise auf eine von Menschen lesbare Form zurückzuführen;
+
+(iii) 	
+technische Schutzmaßnahmen (TPM) im Produkt umgehen oder ein Verfahren zu deren Umgehung zur Verfügung stellen;
+
+(iv) 	
+das Produkt in einer Weise benutzen, die in dieser EULA nicht ausdrücklich von uns genehmigt ist.
+
+3. PROGRAMMIERSCHNITTSTELLEN / FREMDSOFTWARE
+Wir bieten Ihnen gegebenenfalls Programmierschnittstellen oder andere Software-Schnittstellen („API“) an, mit deren Hilfe Sie mit Software mittels Anwendungen oder anderer Software von Ihnen oder Fremdfirmen („Fremdsoftware“) kommunizieren können. Dies stellt keinen Rechtsanspruch auf einen solchen angebotenen Service dar. Wir können jederzeit die Bereitstellung eines derartigen Services beenden. Sofern diese API von TeamViewer zur Verfügung gestellt werden, gelten solche API als Produkt im Sinne dieser EULA. Falls Sie eine Fremdsoftware nutzen, unterliegt diese Nutzung nicht der EULA. TeamViewer haftet nicht für Fremdsoftware jeglicher Art sowie Schnittstellen jeglicher Art von Ihnen oder Fremdfirmen, sofern dies nicht gemäß des geltend zwingenden Rechts vorgesehen ist.
+
+4. GEHEIMHALTUNG
+Unser Produkt enthält wesentliche Bestandteile (z. B. Organisation, Algorithmen, Logik), die wir als vertrauliche Informationen behandeln; es handelt sich dabei um Betriebsgeheimnisse, die uns, unseren Lieferanten oder Lizenzgebern gehören, einschließlich des spezifischen firmeneigenen Designs sowie der Strukturen einzelner Programme und der zugehörigen Schnittstellen-Informationen. Sie haben unser Produkt vertraulich zu behandeln und eine Offenlegung seiner vertraulichen Aspekte zu verhindern. Unser Produkt ist durch US-, EU- und internationale Patent- oder Urhebergesetze oder durch sonstige Gesetze und Abkommen geschützt.
+
+5. VORBEHALT VON RECHTEN
+Sie erkennen an, dass alle Rechte des geistigen Eigentums an unserem Produkt uns und unseren Lizenzgebern gehören. Die Rechte an unserem Produkt werden als Lizenz vergeben (nicht verkauft). Sie haben außer den in dieser EULA eingeräumten Rechten keine weiteren Rechte oder Ansprüche an unserem Produkt. Wir und unsere Lizenzgeber behalten das Eigentum an allen Kopien unseres Produkts und behalten uns alle Rechte vor, die Ihnen in dieser EULA nicht ausdrücklich eingeräumt werden.
+
+6. DATENSCHUTZ
+TeamViewer und Sie haben die Bestimmungen der geltenden Datenschutzgesetze zu beachten. TeamViewer nimmt den Schutz Ihrer persönlichen Daten sehr ernst und hält sich strikt an die einschlägigen Datenschutzgesetze. TeamViewer erfasst, verarbeitet und verwendet Ihre Daten für die Durchführung und Abwicklung des Vertragsverhältnisses mit Ihnen, insbesondere für die erfolgreiche Herstellung von Verbindungen über das Internet. Ihre Daten werden nicht ohne Ihre vorherige Zustimmung an Dritt-Inserenten weitergegeben. Nicht-personenbezogene oder anonyme Daten können automatisch erfasst werden, um die Funktionalität und die Handhabung unseres Produkts zu verbessern, insbesondere um die Bereitstellung von Software-Updates, Support, Content, TPM und anderen Dienstleistungen zu erleichtern und zu verbessern. Sie erklären sich damit einverstanden, dass die gesammelten nicht-personenbezogenen oder anonymen Daten zur Verarbeitung an unsere weltweit eingerichteten Niederlassungen oder Tochtergesellschaften gesandt werden können.
+
+Falls Sie Fremdsoftware jedweder Art verwenden, haftet TeamViewer nicht für Daten, die Sie mit der Fremdsoftware teilen. Der Schutz Ihrer Daten wird in diesem Fall durch das Verhältnis der Fremdsoftware zu Ihnen geregelt.
+
+7. CONTENT-UPDATES, TPMs
+Von Zeit zu Zeit ist eine automatische Synchronisation oder ein Update unserer Server oder Systeme erforderlich, um eine optimale Nutzung sicherzustellen (“Content”). Dieser Content kann Ihnen in regelmäßigen Zeitabständen in verschiedenen Formaten geliefert werden. Unsere Produkte können auch TPMs, wie z. B. einen Lizenzschlüssel oder einen Code enthalten, mit dem unbegrenztes Kopieren verhindert oder - je nach der von Ihnen erworbenen Lizenz - die Nutzungszeit oder die Funktionalität begrenzt werden können. Sie erklären sich ebenfalls damit einverstanden, dass Ihr Produkt automatisch mit uns Kontakt aufnimmt, um einen Content zu erhalten.
+
+8. GEBÜHREN/STEUERN (nur für gewerbliche Nutzung)
+Sie verpflichten sich, alle in Ihrem Software-Bestellformular aufgeführten Gebühren gemäß den vereinbarten Zahlungsbedingungen an uns zu bezahlen. Die Gebühren enthalten keine Umsatz-, Gebrauchs-, Mehrwert- oder sonstige Steuern (einschließlich der geltenden Quellensteuern); die Entrichtung der Steuern liegt in Ihrer Verantwortung. Bank- und Kreditkartengebühren gehen zu Ihren Lasten. Alle Gebühren sind innerhalb von 14 Tagen nach Rechnungsdatum in der auf Ihrem Software-Bestellformular angegebenen Währung zu bezahlen. Auf überfällige Beträge kann eine Bearbeitungsgebühr von 1,5% pro Monat, jedoch nicht mehr als der gesetzlich zulässige Betrag erhoben werden.
+
+9. LAUFZEIT UND KÜNDIGUNG
+Sie können den Kauf unseres Produkts innerhalb von 7 Tagen ab Kaufdatum widerrufen, indem Sie eine entsprechende E-Mail oder einen Brief an die in Artikel 17 angegebene Adresse senden.
+
+Bei befristeten Lizenzen endet Ihre Berechtigung unser Produkt zu benutzen, unmittelbar mit Ablauf des auf Ihrem Software-Bestellformular angegebenen Lizenzzeitraums. Befristete Lizenzen mit einmonatiger Laufzeit verlängern sich am Monatsende automatisch um einen weiteren Monat, wenn sie nicht spätestens 14 Tage vor Ende des jeweils laufenden Monats von Ihnen durch schriftliche Mitteilung an uns gekündigt werden. Befristete Lizenzen mit einjähriger Laufzeit verlängern sich am Jahresende automatisch um ein weiteres Jahr, wenn sie nicht spätestens 28 Tage vor Ende des jeweils laufenden Jahres von Ihnen durch schriftliche Mitteilung an uns gekündigt werden. Wir können die Preise für befristete Lizenzen jederzeit nach vorheriger Mitteilung an Sie per E-Mail mit einer Frist von 14 Tagen erhöhen. Sie können die befristeten Lizenzen schriftlich kündigen, bevor die neuen Preise wirksam werden. Sind Sie Privatanwender, kann jede Partei die erteilte Lizenz jederzeit kündigen.
+
+Wir können diese EULA und Ihre Berechtigung zur Nutzung unseres Produkts ganz oder teilweise fristlos kündigen und sonstige Rechtsbehelfe einlegen, wenn Sie gegen eine Ihrer Verpflichtungen verstoßen. Nach der Kündigung haben Sie jede Benutzung unseres Produkts zu beenden, alle Kopien unseres Produkts mit sämtlichen Komponenten zu vernichten oder auf Verlangen unsererseits diese Kopien und Komponenten an uns zurückzusenden.
+
+Wichtiger Hinweis: Die Artikel 2, 3, 4, 5, 7, 8, 9 und 12-18 dieser EULA bleiben auch nach Beendigung des Vertrags durchsetzbar.
+
+10. EXPORTKONTROLLEN
+Sie verpflichten sich, unser Produkt nicht in einem Land zu verwenden oder in ein Land oder an eine Person zu versenden, zu übertragen oder zu exportieren, wenn dies gegen die EU- oder US-Exportvorschriften verstößt oder in irgendeiner Weise nach der gemeinsamen Außen- und Sicherheitspolitik der EU oder nach dem US-amerikanischen Ausfuhrgesetz verboten ist. Mit der Benutzung unseres Produkts bestätigen Sie, dass Sie sich in keinem solchen Land aufhalten, nicht darin ansässig sind und nicht unter der Kontrolle eines solchen Landes stehen. Ferner übernehmen Sie die volle Verantwortung für die Benutzung unseres Produkts.
+
+11. GEWÄHRLEISTUNG
+Wir gewährleisten gewerblichen Nutzern für den auf ihrem jeweiligen Software-Bestellformular angegebenen Zeitraum, maximal jedoch für zwei Jahre ab dem Datum, an dem unser Produkt bei ihnen eingegangen ist, dass unser Produkt frei von wesentlichen Mängeln ist.
+
+Gegenüber Privatanwendern wird keine Gewährleistung für Mängel übernommen, es sei denn, dass der Mangel arglistig verschwiegen wurde. Ergänzungen oder Aktualisierungen unseres Produkts, einschließlich Service Packs, Patches oder Fixes, die Ihnen zur Verfügung gestellt werden, und urheberrechtlich geschützte oder Open-Source-Software Dritter, die in unserer Software enthalten ist, fallen nicht unter die Gewährleistung. Sie werden “wie besehen” zur Verfügung gestellt. Diese Gewährleistung ist nur für Sie bestimmt und kann nicht übertragen werden.
+
+Die oben angegebenen Regelungen beeinträchtigen nicht die übrigen Rechte, die Ihnen nach dem Gesetz zustehen. Die Behebung von Mängeln erfolgt für Sie unentgeltlich. Gewährleistungsansprüche sind ausgeschlossen, wenn der Ausfall unseres Produkts auf einen Unfall, missbräuchliche, fehlerhafte oder unnormale Verwendung, einen Virus oder eine Benutzung nach der Bereitstellung eines Upgrade zurückzuführen ist.
+
+MIT AUSNAHME DER OBEN AUFGEFÜHRTEN FÄLLE WIRD UNSER PRODUKT DEM BENUTZER “WIE BESEHEN” ZUR VERFÜGUNG GESTELLT. WIR GARANTIEREN NICHT DAFÜR, DASS DIE IN UNSEREM PRODUKT ENTHALTENEN SPEZIFIKATIONEN ODER FUNKTIONEN IHREN BEDÜRFNISSEN ENTSPRECHEN, DASS UNSER PRODUKT UNUNTERBROCHEN ODER FEHLERFREI BETRIEBEN WERDEN KANN ODER DASS MÄNGEL UNSERES PRODUKTS BEHOBEN WERDEN KÖNNEN. WIR GARANTIEREN NICHT DAFÜR, DASS DAS PRODUKT ZUSAMMEN MIT FREMDSOFTWARE ODER ANDEREN PRODUKTEN DRITTER BETRIEBEN WERDEN KANN. FERNER WIRD NICHT GARANTIERT, DASS DAS PRODUKT ODER SPEZIELL ENTWORFENE VERSIONEN AUCH ZUKÜNFTIG BEI ONLINE-UNTERNEHMEN ODER AUF ONLINE-MÄRKTEN DRITTER ODER FÜR VON DRITTEN HERGESTELLTE GERÄTE ODER SYSTEME ERHÄLTLICH SEIN WERDEN.
+
+12. HAFTUNGSBESCHRÄNKUNG
+Soweit in dieser EULA nicht anders bestimmt, haftet TeamViewer für Verstöße gegen vertragliche und außervertragliche Verpflichtungen, wie nach geltendem Recht vorgesehen. Wir haften für aus beliebigem Rechtsgrund entstandene Schäden nur bei Vorsatz oder grober Fahrlässigkeit. Bei gewerblichen Nutzern haften wir auch für Schäden, die durch Fahrlässigkeit verursacht wurden und zum Tod oder zu Personen- oder Gesundheitsschäden oder zu einem Verstoß gegen eine wesentliche vertragliche Verpflichtung geführt haben. IIn diesem Fall beschränkt sich unsere Haftung jedoch auf den Ersatz eines vorhersehbaren typischen Schadens. In keinem Fall haften wir für irgendeine Art von Sonder-, Neben-, indirekten oder Folgeschäden. Die oben genannten Haftungsbeschränkungen gelten nicht, wenn ein Mangel von uns arglistig verschwiegen oder eine Haftung für den Zustand der Waren von uns übernommen wurde. Die genannten Haftungsbeschränkungen gelten nicht für Ansprüche Ihrerseits nach dem deutschen Produkthaftungsgesetz, wenn diese EULA gemäß Artikel 14 deutschem Recht unterliegt. Sie können diese EULA wegen Verletzung einer vertraglichen Verpflichtung, die keinen Mangel darstellt, nur kündigen oder von ihr zurücktreten, wenn TeamViewer für diese Verletzung verantwortlich ist. Jedes sonstige ordentliche Kündigungsrecht ist für Sie ausgeschlossen. Sofern dies nicht im geltend zwingenden Recht vorgesehen ist, haften wir nicht für Fremdsoftware und Ihre Nutzung von Fremdsoftware.
+
+13. SCHADLOSHALTUNG
+Sie verpflichten sich, TeamViewer, deren Muttergesellschaft, Partnerorganisationen oder Tochtergesellschaften, Vorstandsmitglieder, Beauftragte und Angestellte von allen Ansprüchen, Verlusten, Klageverfahren oder Schadenersatzansprüchen, einschließlich angemessener Anwaltshonorare, freizustellen und schadlos zu halten, die von einem Dritten aufgrund eines von Ihnen begangenen Verstoßes gegen eine Bestimmung dieser EULA, einer von Ihnen fahrlässig begangenen Handlung oder eines schuldhaften Verhaltens und/oder eines Verstoßes Ihrerseits gegen geltende Gesetze geltend gemacht werden.
+
+14. VOLLSTÄNDIGE VEREINBARUNG
+Bei dieser EULA (einschließlich Ihres Software-Bestellformulars, beide in ihrer jeweiligen geltenden Fassung) handelt es sich um die vollständige Vereinbarung über unser Produkt; sie ersetzt alle früheren oder gegenwärtigen mündlichen oder schriftlichen Mitteilungen, Angebote und Zusicherungen, die unser Produkt betreffen. Diese EULA hat Vorrang vor allen gegensätzlichen oder zusätzlichen Bestimmungen in Bestellungen, Aufträgen, Anerkennungen, Bestätigungen oder sonstigen, von Ihnen ausgestellten Dokumenten - selbst wenn diese von uns unterzeichnet und zurückgesandt wurden, oder wenn Bestellungen oder sonstige Dokumente von Ihnen das Gegenteilige aufführen. Sollten die Bestimmungen der Verkaufsbedingungen, die häufig gestellten Fragen (FAQs), Leitlinien oder Programme von TeamViewer im Widerspruch zu den Bestimmungen dieser EULA stehen, haben die Bestimmungen dieser EULA Vorrang.
+
+15. GELTENDES RECHT
+Befinden sich der Ort des Produkterwerbs oder Ihr Haupt(wohn)sitz nicht in den USA, Südamerika oder Kanada, unterliegt diese EULA den Gesetzen Deutschlands. Die Parteien stimmen bedingungslos und unwiderruflich der alleinigen rechtlichen Zuständigkeit des Gerichtsstands Göppingen, Deutschland, zu. Befinden sich der Ort des Produkterwerbs oder Ihr Haupt(wohn)sitz in den USA, Südamerika oder in Kanada, unterliegt diese EULA den Gesetzen des Staates New York, USA, unter Ausschluss der in diesen Gesetzen enthaltenen kollisionsrechtlichen Bestimmungen (und unter Ausschluss des Uniform Commercial Code), und die Parteien stimmen bedingungslos und unwiderruflich der alleinigen rechtlichen Zuständigkeit des Gerichtsstands Manhattan, New York, zu. Die Parteien verzichten bezüglich der obigen Bestimmungen auf alle Einwendungen zum Zwecke der Klageerhebung, Einleitung gerichtlicher Schritte oder Verfahren, die sich auf diese EULA beziehen.
+
+16. GEWERBLICHE SOFTWARE
+Erwerben Sie Software im Auftrag eines Organs der Regierung der Vereinigten Staaten, ist unser Produkt als "gewerbliche Software" bzw. "gewerbliche Computer-Softwareunterlagen" entsprechend Artikel 227.7202 DFAR und 12.212 und 52.227-19 FAR, soweit zutreffend, anzusehen. Jede Benutzung, Veränderung, Vervielfältigung, Veröffentlichung, Ausführung, Vorführung oder Offenlegung unseres Produkts unterliegt ausschließlich den Bestimmungen dieser EULA und ist, soweit sie nicht nach den Bestimmungen dieser EULA ausdrücklich gestattet ist, untersagt.
+
+17. SONSTIGES
+(i) 	
+Wird diese EULA oder irgendein Teil derselben für nicht gesetzeskonform, rechtsunwirksam oder nicht durchsetzbar befunden, haben sich die Parteien auf eine Bestimmung zu einigen, die den Absichten der ursprünglichen Klausel so nahe wie möglich kommt und gesetzeskonform, wirksam und durchsetzbar ist.
+
+(ii) 	
+Mit keiner der in dieser EULA ausdrücklich oder stillschweigend enthaltenen Bestimmungen wird beabsichtigt, gesetzliche Rechte einer anderen natürlichen oder juristischen Person zu verletzen.
+
+(iii) 	
+Sie dürfen diese EULA oder die darin enthaltenen Rechte oder Pflichten nur mit unserer vorherigen schriftlichen Zustimmung an einen Dritten abtreten, verpfänden oder in anderer Weise übertragen.
+
+(iv) 	
+Die Überschriften wurden lediglich für eine übersichtlichere Gliederung eingefügt; sie dienen keinem sonstigen Zweck und sollen nicht in die Auslegung einbezogen werden.
+
+18. MITTEILUNGEN
+Mitteilungen haben schriftlich zu erfolgen. E-Mail ist ausreichend. Mitteilungen sind an folgende Adresse zu richten:
+
+TeamViewer GmbH
+Rechtsabteilung
+C/O: General Manager
+Jahnstr. 30
+73037 Goeppingen
+Email: legal@teamviewer.com
+
+Copyright © 2013 TeamViewer GmbH. Alle Rechte vorbehalten. Alle genannten Marken sind Eigentum der jeweiligen Markeninhaber.
+
+Windows® ist eine Marke der Microsoft-Unternehmensgruppe. iPhone® und iPad® sind in den USA und anderen Ländern eingetragene Marken der Apple Inc. Android™ ist eine Marke der Google Inc.
+
+Anmerkung:
+Dieser Text wurde aus dem Englischen übersetzt. Die gültige und rechtsverbindliche Originalversion in englischer Sprache finden Sie unter http://www.teamviewer.com/en/company/eula.aspx.

@@ -1,0 +1,59 @@
+#!/bin/bash
+
+TV_VERSION="11.0.53191"
+TV_PKGTYPE="TAR_NI"
+
+TV_BIN_DIR="$(dirname "$TV_SCRIPT_DIR")"
+TV_BASE_DIR="$(dirname "$TV_BIN_DIR")"
+
+if isInstalledTV ; then
+  TV_USER_CONFIG_SUBPATH='.config/teamviewer'
+  TV_USER_LOCAL_SUBPATH='.local/share/teamviewer11'
+
+  TV_PROFILE="$HOME/$TV_USER_LOCAL_SUBPATH"
+  TV_LOG_DIR="$TV_PROFILE/logfiles"
+  TV_CFG_DIR="$HOME/$TV_USER_CONFIG_SUBPATH"
+
+  TV_DESKTOP_FILE="$TV_BIN_DIR/desktop/teamviewer-teamviewer11.desktop"
+  TV_INSTALL_LOG="$TV_BASE_DIR/logfiles/install_teamviewerd.log"
+else
+  TV_PROFILE="$TV_BASE_DIR/profile"
+  TV_LOG_DIR="$TV_BASE_DIR/logfiles"
+  TV_CFG_DIR="$TV_BASE_DIR/config"
+
+  TV_DESKTOP_DIR="$TV_BIN_DIR/desktop"
+fi
+
+TV_LD32_PATH='/lib/ld-linux.so.2'
+TV_LD64_PATH='/lib64/ld-linux-x86-64.so.2'
+
+TV_WINE_DIR="$TV_BIN_DIR/wine"
+TV_EXTENSION="$TV_WINE_DIR/drive_c/TeamViewer"
+TV_XDGS_DIR="$TV_BIN_DIR/xdg-utils"
+TV_PIDFILE='/var/run/teamviewerd.pid'
+TV_STARTLOG="$TV_LOG_DIR/startup.log"
+
+# used in UpdateBinaries
+TV_RTLIB_DIR="$TV_BIN_DIR/RTlib"
+TV_BINLOADER="$TV_RTLIB_DIR/ld-linux.so.2"
+
+#used in setup_teamviewer (tar.gz)
+if [ $TV_PKGTYPE == TAR_NI ]; then
+  TV_INSTALL_BASE_DIR=/opt/teamviewer
+  TV_TARIN_LOGDIR="$TV_INSTALL_BASE_DIR/logfiles"
+  TV_INSTALL_LOG="$TV_TARIN_LOGDIR/install_teamviewerd.log"
+fi
+
+
+### USE_LOCAL_WINE="yes"
+
+if ! [ "$USE_LOCAL_WINE" = "yes" ] ; then
+  export WINEDEBUG="fixme-wincodecs"
+  export WINEPREFIX="$TV_PROFILE"
+  export WINEDLLPATH="$TV_WINE_DIR/lib:$TV_WINE_DIR/lib/wine:$TV_WINE_DIR/drive_c/TeamViewer"
+  export PATH=$TV_WINE_DIR/bin:$PATH
+fi
+
+export PATH=$TV_SCRIPT_DIR:$PATH:$TV_XDGS_DIR
+export TV_USERHOME=$HOME
+

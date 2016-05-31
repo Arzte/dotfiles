@@ -1,0 +1,11 @@
+
+TV_SLAVE
+	linux-vdso.so.1 (0x00007ffeaea2f000)
+	libdbus-1.so.3 => /usr/lib/libdbus-1.so.3 (0x00007f1d04e62000)
+	librt.so.1 => /usr/lib/librt.so.1 (0x00007f1d04c5a000)
+	libdl.so.2 => /usr/lib/libdl.so.2 (0x00007f1d04a56000)
+	libasound.so.2 => /usr/lib/libasound.so.2 (0x00007f1d0474f000)
+	libm.so.6 => /usr/lib/libm.so.6 (0x00007f1d04449000)
+	libpthread.so.0 => /usr/lib/libpthread.so.0 (0x00007f1d0422c000)
+	libc.so.6 => /usr/lib/libc.so.6 (0x00007f1d03e8a000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007f1d050b1000)

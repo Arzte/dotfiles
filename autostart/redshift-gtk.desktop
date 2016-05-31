@@ -1,0 +1,27 @@
+[Desktop Entry]
+X-GNOME-Autostart-enabled=false
+Type=Application
+Version=1.0
+Exec=redshift-gtk
+Hidden=false
+GenericName=Color temperature adjustment
+GenericName[cs]=Přizpůsobení barevné teploty
+GenericName[da]=Justering af farvetemperatur
+GenericName[de]=Farbtemperatur Anpassung
+GenericName[es]=Ajuste de la temperatura de color
+GenericName[fr]=Réglage de la température de couleur
+GenericName[hu]=Szín hőmérséklet beállítás
+GenericName[it]=Regolazione della temperatura del colore
+GenericName[lt]=Spalvos temperatūros reguliavimas
+GenericName[nl]=Kleurtemperatuur aanpassing
+GenericName[tr]=Renk sıcaklığı ayarı
+Icon=redshift
+Terminal=false
+StartupNotify=true
+Name=Redshift
+Name[zh_CN]=红移
+Name[de]=Redshift
+Comment=Color temperature adjustment tool
+Comment[it]=Strumento per la regolazione della temperatura del colore
+Categories=Utility;
+

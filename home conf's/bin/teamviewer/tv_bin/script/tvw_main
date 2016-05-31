@@ -1,0 +1,190 @@
+#!/bin/bash
+
+source "$TV_SCRIPT_DIR/tvw_aux"
+source "$TV_SCRIPT_DIR/tvw_config"
+source "$TV_SCRIPT_DIR/tvw_exec"
+source "$TV_SCRIPT_DIR/tvw_extra"
+source "$TV_SCRIPT_DIR/tvw_daemon"
+source "$TV_SCRIPT_DIR/tvw_profile"
+
+function Main()
+{
+  local action="$(ActionTrim "$1")"
+  local opt="$2"
+
+  set -o pipefail
+
+  echo
+  case "$action" in
+    'help'           )        PrintHelp                    ;;
+    'version'        )        PrintVersion                 ;;
+    'info'           )        PrintInfo                    ;;
+    'ziplog'         )        CreateZipLog                 ;;
+    'license'        )        Run_Config --license "$opt"  ;;
+    'passwd'         )        SetPasswd "$opt"             ;;
+    'daemon'         )        Run_Daemon $opt              ;;
+    'setup'          )        Run_Config "$@"              ;;
+    'uninstall'      )        UninstallTAR "$opt"          ;;
+
+    'winecfg'        ) shift; Run_WineCfg "$@"             ;;
+    'regedit'        ) shift; Run_RegEdit "$@"             ;;
+    'export-license' )        ExportLicense "$opt"         ;;
+    'kill'           )        Run_KillTeamViewer           ;;
+    'killImpl'       )        KillTeamViewerImpl           ;;
+    'update-profile' )        Init                         ;;
+    *                )        Run_TeamViewer "$@"          ;;
+  esac
+
+  echo
+}
+
+function ActionTrim()
+{
+  local param="$1"
+  local trim=0
+  [[ "$param" = -*  ]] && trim=1
+  [[ "$param" = --* ]] && trim=2
+  echo "${param:$trim}"
+}
+
+function Init()
+{
+  local opt="$1"
+
+  exec 2>&1                                # redirect stderr
+  InitDirs || die "InitDirs failed. ($?)"  # needed for log
+  echo "Init..." | TeeLog reset            # truncate startup log
+  validateUser || exit 1
+
+  LogStartupInfo | Log	|| die "Init failed. Please check '$TV_STARTLOG'"
+  CheckEnvironment # no pipe, no subshell
+  UpdateBinaries | Log	|| die "UpdateBinaries failed. Please check '$TV_STARTLOG'"
+
+  [ "$opt" = 'runGui' ] && XRandRWait | TeeLog		# delay until Xrandr changed the screen configuration
+  echo "Checking setup..."
+
+  # no pipe/subshell due to InitFonts
+  InitProfile >> "$TV_STARTLOG" || die "InitProfile failed. Please check '$TV_STARTLOG'"
+}
+
+function InitDirs()
+{
+  cd "$TV_BASE_DIR"          || return 1		# fonts_portable uses relative path
+  make_path "$TV_LOG_DIR"    || return 2		# needed by LockStartup
+  make_path "$TV_CFG_DIR"    || return 3
+}
+
+function CheckEnvironment()
+{
+  isQuickSupport       || return
+  [ -n "$LD_PRELOAD" ] || return
+
+  echo "Removing LD_PRELOAD='$LD_PRELOAD'"
+  unset LD_PRELOAD
+}
+
+function LogStartupInfo()
+{
+  HeadEcho "TeamViewer:"	"$TV_VERSION - $TV_PKGTYPE"
+  HeadEcho "Profile:"		"$HOME ($LOGNAME)"
+  HeadEcho "Desktop:"		"DS: '$DESKTOP_SESSION' 	XDG: '$XDG_CURRENT_DESKTOP'"
+  HeadEcho "XServer TTY:"	"$(InfoXServerTTY)"
+
+  echo
+
+  echo "ok (info)"
+  echo
+}
+
+function InfoXServerTTY()
+{
+  local xfvt
+  cmdExists xprop && xfvt=$(xprop -root XFree86_VT | grep INTEGER | cut -f2 -d=)
+  xfvt=${xfvt:-'none'}
+  echo $xfvt
+}
+
+function Run_TeamViewer()
+{
+  local inst
+
+  isInstalledTV || inst="-n"
+
+  LockStartup	 # terminates on failure
+  Init 'runGui'
+
+  echo "Launching TeamViewer ..."
+
+  RequireNetwork
+  RequireWineServer
+
+  echo "Launching TeamViewer GUI ..."
+
+  UnlockStartup
+
+  exec wine "c:\TeamViewer\TeamViewer.exe" $inst "$@" &> "$TV_LOG_DIR/winelog"
+}
+
+function Run_KillTeamViewer()
+{
+  local this="$0"			# ps: allow user names with more than 8 characters...
+  local userlist="$(ps -e -o 'user:25,command' | grep TeamViewer | cut --delimiter=' ' -f 1 | sort -u)"
+
+  if isSuperUser ; then		# if root, launch the script for all other users
+    for user in $userlist ; do
+      echo "kill '$this' - $user ($WINEPREFIX / $TV_PROFILE)"
+      su -c "$this killImpl" - $user
+    done
+  else
+    KillTeamViewerImpl       # kill for current user
+  fi
+}
+
+function KillTeamViewerImpl()
+{
+    wineserver -k	# kill for current user
+}
+
+function Run_WineCfg()
+{
+  Init
+  wine winecfg "$@"
+}
+
+function Run_RegEdit()
+{
+  Init
+  wine regedit "$@"
+}
+
+function Run_Daemon()
+{
+  local opt="$1"
+
+  installedTVorDie
+
+  case "$opt" in
+    ( disable )					removeDaemon	|| rootSuggest	;;
+    ( enable  )					installDaemon	|| rootSuggest	;;
+    ( start | stop | restart )	cmdDaemon $opt	|| rootSuggest	;;
+    ( status )					cmdDaemon $opt					;;
+    ( * )						echo "unknown option '$opt'"	;;
+  esac
+}
+
+function Run_Config()
+{
+  local tvconfig="$TV_BIN_DIR/teamviewer-config"
+  export TV_SESSIONTYPE=2
+  exec "$tvconfig" "$@"
+}
+
+function UninstallTAR()
+{
+  local force="$1"
+  local instSetup="$TV_SCRIPT_DIR/teamviewer_setup"
+
+  [ "$TV_PKGTYPE" == "TAR_IN" ] || return
+
+  "$instSetup" uninstall "$force"
+}

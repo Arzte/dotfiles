@@ -1,0 +1,1491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/">
+	<menu id="root-menu" label="Applications">
+		<item icon="/usr/share/icons/Numix-Circle/48x48/apps/file-manager.svg" label="File Manager">
+			<action name="Execute">
+				<execute>
+<![CDATA[xdg-open .]]>																			
+				</execute>
+			</action>
+		</item>
+		<item icon="/usr/share/icons/Numix-Circle/48x48/apps/terminal.svg" label="Terminal">
+			<action name="Execute">
+				<execute>
+<![CDATA[xfce4-terminal]]>
+				</execute>
+			</action>
+		</item>
+		<item icon="/usr/share/icons/Numix-Circle/48x48/apps/web-browser.svg" label="Web Browser">
+			<action name="Execute">
+				<execute>
+<![CDATA[xdg-open http://]]>																			
+				</execute>
+			</action>
+		</item>
+		<item icon="" label="Run command">
+			<action name="Execute">
+				<execute>
+<![CDATA[gmrun]]>																			
+				</execute>
+			</action>
+		</item>
+		<separator label="Categories"/>
+		<menu icon="" id="Accessories" label="Accessories">
+			<item icon="" label="About Xfce">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-about]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Application Finder">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-appfinder]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/file-roller.svg" label="Archive Manager">
+				<action name="Execute">
+					<execute>
+<![CDATA[file-roller]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/Thunar.png" label="Bulk Rename">
+				<action name="Execute">
+					<execute>
+<![CDATA[/usr/lib/Thunar/ThunarBulkRename]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Calculator">
+				<action name="Execute">
+					<execute>
+<![CDATA[gnome-calculator]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Character Map">
+				<action name="Execute">
+					<execute>
+<![CDATA[gucharmap]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/24x24/apps/xfce4-clipman-plugin.png" label="Clipman">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-clipman]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="compton">
+				<action name="Execute">
+					<execute>
+<![CDATA[compton]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/256x256/apps/gnome-disks.png" label="Disks">
+				<action name="Execute">
+					<execute>
+<![CDATA[gnome-disks]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Elementary Test">
+				<action name="Execute">
+					<execute>
+<![CDATA[elementary_test]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="File Manager">
+				<action name="Execute">
+					<execute>
+<![CDATA[exo-open --launch FileManager]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="gedit">
+				<action name="Execute">
+					<execute>
+<![CDATA[gedit]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/opt/Gitter/linux64/logo.png" label="Gitter">
+				<action name="Execute">
+					<execute>
+<![CDATA[/opt/Gitter/linux64/Gitter]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/kupfer.svg" label="Kupfer">
+				<action name="Execute">
+					<execute>
+<![CDATA[kupfer]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/pixmaps/leafpad.xpm" label="Leafpad">
+				<action name="Execute">
+					<execute>
+<![CDATA[leafpad]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Mousepad">
+				<action name="Execute">
+					<execute>
+<![CDATA[mousepad]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/orage_globaltime.png" label="Orage Globaltime">
+				<action name="Execute">
+					<execute>
+<![CDATA[globaltime]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/seahorse.svg" label="Passwords and Keys">
+				<action name="Execute">
+					<execute>
+<![CDATA[/usr/bin/seahorse]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/plank.svg" label="Plank">
+				<action name="Execute">
+					<execute>
+<![CDATA[plank]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/gksu-root-terminal.svg" label="Root Terminal">
+				<action name="Execute">
+					<execute>
+<![CDATA[gksu /usr/bin/x-terminal-emulator]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Run Program...">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-appfinder --collapsed]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/applets-screenshooter.png" label="Screenshot">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-screenshooter]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/xfce-sensors.png" label="Sensor Viewer">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-sensors]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/utilities-system-monitor.svg" label="Task Manager">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-taskmanager]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Terminal Emulator">
+				<action name="Execute">
+					<execute>
+<![CDATA[exo-open --launch TerminalEmulator]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/Thunar.png" label="Thunar File Manager">
+				<action name="Execute">
+					<execute>
+<![CDATA[thunar]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/xarchiver.png" label="Xarchiver">
+				<action name="Execute">
+					<execute>
+<![CDATA[xarchiver]]>																							
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu icon="" id="Development" label="Development">
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/bluefish.svg" label="Bluefish Editor">
+				<action name="Execute">
+					<execute>
+<![CDATA[bluefish]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Elementary Test">
+				<action name="Execute">
+					<execute>
+<![CDATA[elementary_test]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/intellij-idea/bin/idea.png" label="IntelliJ IDEA Community Edition">
+				<action name="Execute">
+					<execute>
+<![CDATA["/usr/share/intellij-idea/bin/idea.sh"]]>																							
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu icon="/usr/share/icons/Numix-Circle/48x48/apps/applications-science.svg" id="Education" label="Education">
+			<item icon="/usr/share/icons/hicolor/256x256/apps/libreoffice5.0-math.png" label="LibreOffice 5.0 Math">
+				<action name="Execute">
+					<execute>
+<![CDATA[libreoffice5.0 --math]]>																							
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu icon="/usr/share/icons/Numix-Circle/48x48/apps/applications-games.svg" id="Games" label="Games">
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/chromium-bsu.svg" label="Chromium B.S.U.">
+				<action name="Execute">
+					<execute>
+<![CDATA[chromium-bsu]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/steam.svg" label="Steam">
+				<action name="Execute">
+					<execute>
+<![CDATA[/usr/bin/steam]]>																							
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu icon="" id="Graphics" label="Graphics">
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/blender.svg" label="Blender">
+				<action name="Execute">
+					<execute>
+<![CDATA[blender]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/gimp.svg" label="GNU Image Manipulation Program">
+				<action name="Execute">
+					<execute>
+<![CDATA[gimp-2.8]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/256x256/apps/libreoffice5.0-draw.png" label="LibreOffice 5.0 Draw">
+				<action name="Execute">
+					<execute>
+<![CDATA[libreoffice5.0 --draw]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/ristretto.svg" label="Ristretto Image Viewer">
+				<action name="Execute">
+					<execute>
+<![CDATA[ristretto]]>																							
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu icon="" id="Multimedia" label="Multimedia">
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/multimedia-volume-control.svg" label="Audio Mixer">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-mixer]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/brasero.svg" label="Brasero">
+				<action name="Execute">
+					<execute>
+<![CDATA[brasero]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/minitube.svg" label="Minitube">
+				<action name="Execute">
+					<execute>
+<![CDATA[minitube]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Mopidy">
+				<action name="Execute">
+					<execute>
+<![CDATA[xterm -e 'mopidy']]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/obs.svg" label="OBS">
+				<action name="Execute">
+					<execute>
+<![CDATA[obs]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/parole.svg" label="Parole Media Player">
+				<action name="Execute">
+					<execute>
+<![CDATA[parole]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/multimedia-volume-control.svg" label="PulseAudio Volume Control">
+				<action name="Execute">
+					<execute>
+<![CDATA[pavucontrol]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Rage">
+				<action name="Execute">
+					<execute>
+<![CDATA[rage]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/rhythmbox.svg" label="Rhythmbox">
+				<action name="Execute">
+					<execute>
+<![CDATA[rhythmbox]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/vlc.svg" label="VLC media player">
+				<action name="Execute">
+					<execute>
+<![CDATA[/usr/bin/vlc --started-from-file]]>																							
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu icon="/usr/share/icons/Numix-Circle/48x48/apps/applications-internet.svg" id="Network" label="Network">
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/chromium.svg" label="Chromium">
+				<action name="Execute">
+					<execute>
+<![CDATA[chromium]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="EConnMan with Agent">
+				<action name="Execute">
+					<execute>
+<![CDATA[econnman-bin --agent]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="EConnMan">
+				<action name="Execute">
+					<execute>
+<![CDATA[econnman-bin]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/filezilla.svg" label="FileZilla">
+				<action name="Execute">
+					<execute>
+<![CDATA[filezilla]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/firefox.svg" label="Firefox">
+				<action name="Execute">
+					<execute>
+<![CDATA[firefox]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/google-chrome.svg" label="Google Chrome">
+				<action name="Execute">
+					<execute>
+<![CDATA[/usr/bin/google-chrome-stable]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/hexchat.svg" label="HexChat">
+				<action name="Execute">
+					<execute>
+<![CDATA[hexchat]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Mail Reader">
+				<action name="Execute">
+					<execute>
+<![CDATA[exo-open --launch MailReader]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/mumble.svg" label="Mumble">
+				<action name="Execute">
+					<execute>
+<![CDATA[mumble]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/pixmaps/quasselclient.png" label="Quassel IRC (Client only)">
+				<action name="Execute">
+					<execute>
+<![CDATA[quasselclient]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/steam.svg" label="Steam">
+				<action name="Execute">
+					<execute>
+<![CDATA[/usr/bin/steam]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/opt/teamviewer/tv_bin/desktop/teamviewer.png" label="TeamViewer 11">
+				<action name="Execute">
+					<execute>
+<![CDATA[/opt/teamviewer/tv_bin/script/teamviewer]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/web-browser.svg" label="Web Browser">
+				<action name="Execute">
+					<execute>
+<![CDATA[exo-open --launch WebBrowser]]>																							
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu icon="" id="Office" label="Office">
+			<item icon="/usr/share/icons/hicolor/256x256/apps/libreoffice5.0-base.png" label="LibreOffice 5.0 Base">
+				<action name="Execute">
+					<execute>
+<![CDATA[libreoffice5.0 --base]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/256x256/apps/libreoffice5.0-calc.png" label="LibreOffice 5.0 Calc">
+				<action name="Execute">
+					<execute>
+<![CDATA[libreoffice5.0 --calc]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/256x256/apps/libreoffice5.0-draw.png" label="LibreOffice 5.0 Draw">
+				<action name="Execute">
+					<execute>
+<![CDATA[libreoffice5.0 --draw]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/256x256/apps/libreoffice5.0-impress.png" label="LibreOffice 5.0 Impress">
+				<action name="Execute">
+					<execute>
+<![CDATA[libreoffice5.0 --impress]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/256x256/apps/libreoffice5.0-math.png" label="LibreOffice 5.0 Math">
+				<action name="Execute">
+					<execute>
+<![CDATA[libreoffice5.0 --math]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/256x256/apps/libreoffice5.0-writer.png" label="LibreOffice 5.0 Writer">
+				<action name="Execute">
+					<execute>
+<![CDATA[libreoffice5.0 --writer]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/256x256/apps/libreoffice5.0-startcenter.png" label="LibreOffice 5.0">
+				<action name="Execute">
+					<execute>
+<![CDATA[libreoffice5.0]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/xfcalendar.png" label="Orage Calendar">
+				<action name="Execute">
+					<execute>
+<![CDATA[orage]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/orage_globaltime.png" label="Orage Globaltime">
+				<action name="Execute">
+					<execute>
+<![CDATA[globaltime]]>																							
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu icon="" id="Settings" label="Settings">
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/preferences-desktop-accessibility.svg" label="Accessibility">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-accessibility-settings]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Appearance">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-appearance-settings]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/preferences-desktop-wallpaper.svg" label="Desktop">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfdesktop-settings]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/status/video-display.png" label="Display">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-display-settings]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Elementary Configuration">
+				<action name="Execute">
+					<execute>
+<![CDATA[elementary_config]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="File Manager">
+				<action name="Execute">
+					<execute>
+<![CDATA[thunar-settings]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/256x256/apps/oracle-java.png" label="Java Policy Settings">
+				<action name="Execute">
+					<execute>
+<![CDATA[/usr/lib/jvm/oracle-jre/bin/policytool]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/preferences-desktop-keyboard.svg" label="Keyboard">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-keyboard-settings]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="MIME Type Editor">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-mime-settings]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/preferences-desktop-peripherals.svg" label="Mouse and Touchpad">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-mouse-settings]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/xfce4-notifyd.png" label="Notifications">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-notifyd-config]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/pixmaps/octoxbps.png" label="OctoXBPS">
+				<action name="Execute">
+					<execute>
+<![CDATA[octoxbps]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/pixmaps/obconf.png" label="Openbox Configuration Manager">
+				<action name="Execute">
+					<execute>
+<![CDATA[obconf]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/xfcalendar.png" label="Orage preferences">
+				<action name="Execute">
+					<execute>
+<![CDATA[orage -p]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/xfce4-panel.svg" label="Panel">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-panel --preferences]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/status/xfpm-ac-adapter.png" label="Power Manager">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-power-manager-settings]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/preferences-desktop-default-applications.svg" label="Preferred Applications">
+				<action name="Execute">
+					<execute>
+<![CDATA[exo-preferred-applications]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/pixmaps/gksu.png" label="Privilege granting">
+				<action name="Execute">
+					<execute>
+<![CDATA[gksu-properties]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/pixmaps/qtlogo.png" label="Qt Config">
+				<action name="Execute">
+					<execute>
+<![CDATA[qtconfig-qt4]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Removable Drives and Media">
+				<action name="Execute">
+					<execute>
+<![CDATA[thunar-volman-settings]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/xfce4-session.png" label="Session and Startup">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-session-settings]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/preferences-system.svg" label="Settings Editor">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-settings-editor]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Settings Manager">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-settings-manager]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/preferences-desktop-display.svg" label="Window Effects">
+				<action name="Execute">
+					<execute>
+<![CDATA[compton-conf]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/wmtweaks.svg" label="Window Manager Tweaks">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfwm4-tweaks-settings]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/xfwm4.png" label="Window Manager">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfwm4-settings]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/xfce4-workspaces.png" label="Workspaces">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfwm4-workspace-settings]]>																							
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu icon="/usr/share/icons/Numix-Circle/48x48/apps/applications-system.svg" id="System" label="System">
+			<item icon="/usr/share/icons/hicolor/48x48/apps/Thunar.png" label="Bulk Rename">
+				<action name="Execute">
+					<execute>
+<![CDATA[/usr/lib/Thunar/ThunarBulkRename]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/htop.svg" label="Htop">
+				<action name="Execute">
+					<execute>
+<![CDATA[xterm -e 'htop']]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="EConnMan with Agent">
+				<action name="Execute">
+					<execute>
+<![CDATA[econnman-bin --agent]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="EConnMan">
+				<action name="Execute">
+					<execute>
+<![CDATA[econnman-bin]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/system-log-out.png" label="Log Out">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-session-logout]]>
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/pixmaps/octoxbps.png" label="OctoXBPS">
+				<action name="Execute">
+					<execute>
+<![CDATA[octoxbps]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/mimetypes/virtualbox.png" label="Oracle VM VirtualBox">
+				<action name="Execute">
+					<execute>
+<![CDATA[VirtualBox]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/xfce-sensors.png" label="Sensor Viewer">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-sensors]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/hardinfo/pixmaps/logo.png" label="System Profiler and Benchmark">
+				<action name="Execute">
+					<execute>
+<![CDATA[hardinfo]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/utilities-system-monitor.svg" label="Task Manager">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-taskmanager]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/terminology.svg" label="Terminology">
+				<action name="Execute">
+					<execute>
+<![CDATA[terminology]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/Thunar.png" label="Thunar File Manager">
+				<action name="Execute">
+					<execute>
+<![CDATA[thunar]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/pixmaps/xterm-color_48x48.xpm" label="UXTerm">
+				<action name="Execute">
+					<execute>
+<![CDATA[uxterm]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Xfce Terminal">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-terminal]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/pixmaps/xterm-color_48x48.xpm" label="XTerm">
+				<action name="Execute">
+					<execute>
+<![CDATA[xterm]]>																							
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu icon="" id="QT Applications" label="QT Applications">
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/minitube.svg" label="Minitube">
+				<action name="Execute">
+					<execute>
+<![CDATA[minitube]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/mumble.svg" label="Mumble">
+				<action name="Execute">
+					<execute>
+<![CDATA[mumble]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/pixmaps/qtlogo.png" label="Qt Config">
+				<action name="Execute">
+					<execute>
+<![CDATA[qtconfig-qt4]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/pixmaps/quasselclient.png" label="Quassel IRC (Client only)">
+				<action name="Execute">
+					<execute>
+<![CDATA[quasselclient]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/preferences-desktop-display.svg" label="Window Effects">
+				<action name="Execute">
+					<execute>
+<![CDATA[compton-conf]]>																							
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu icon="" id="GTK Applications" label="GTK Applications">
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/preferences-desktop-accessibility.svg" label="Accessibility">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-accessibility-settings]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Appearance">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-appearance-settings]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/file-roller.svg" label="Archive Manager">
+				<action name="Execute">
+					<execute>
+<![CDATA[file-roller]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/bluefish.svg" label="Bluefish Editor">
+				<action name="Execute">
+					<execute>
+<![CDATA[bluefish]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/brasero.svg" label="Brasero">
+				<action name="Execute">
+					<execute>
+<![CDATA[brasero]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/Thunar.png" label="Bulk Rename">
+				<action name="Execute">
+					<execute>
+<![CDATA[/usr/lib/Thunar/ThunarBulkRename]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Calculator">
+				<action name="Execute">
+					<execute>
+<![CDATA[gnome-calculator]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Character Map">
+				<action name="Execute">
+					<execute>
+<![CDATA[gucharmap]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/chromium.svg" label="Chromium">
+				<action name="Execute">
+					<execute>
+<![CDATA[chromium]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/24x24/apps/xfce4-clipman-plugin.png" label="Clipman">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-clipman]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/preferences-desktop-wallpaper.svg" label="Desktop">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfdesktop-settings]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/256x256/apps/gnome-disks.png" label="Disks">
+				<action name="Execute">
+					<execute>
+<![CDATA[gnome-disks]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/status/video-display.png" label="Display">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-display-settings]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="File Manager">
+				<action name="Execute">
+					<execute>
+<![CDATA[thunar-settings]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="gedit">
+				<action name="Execute">
+					<execute>
+<![CDATA[gedit]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/gimp.svg" label="GNU Image Manipulation Program">
+				<action name="Execute">
+					<execute>
+<![CDATA[gimp-2.8]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/hexchat.svg" label="HexChat">
+				<action name="Execute">
+					<execute>
+<![CDATA[hexchat]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/preferences-desktop-keyboard.svg" label="Keyboard">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-keyboard-settings]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/pixmaps/leafpad.xpm" label="Leafpad">
+				<action name="Execute">
+					<execute>
+<![CDATA[leafpad]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="MIME Type Editor">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-mime-settings]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/preferences-desktop-peripherals.svg" label="Mouse and Touchpad">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-mouse-settings]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Mousepad">
+				<action name="Execute">
+					<execute>
+<![CDATA[mousepad]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/xfce4-notifyd.png" label="Notifications">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-notifyd-config]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/pixmaps/obconf.png" label="Openbox Configuration Manager">
+				<action name="Execute">
+					<execute>
+<![CDATA[obconf]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/xfcalendar.png" label="Orage Calendar">
+				<action name="Execute">
+					<execute>
+<![CDATA[orage]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/orage_globaltime.png" label="Orage Globaltime">
+				<action name="Execute">
+					<execute>
+<![CDATA[globaltime]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/xfce4-panel.svg" label="Panel">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-panel --preferences]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/parole.svg" label="Parole Media Player">
+				<action name="Execute">
+					<execute>
+<![CDATA[parole]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/seahorse.svg" label="Passwords and Keys">
+				<action name="Execute">
+					<execute>
+<![CDATA[/usr/bin/seahorse]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/status/xfpm-ac-adapter.png" label="Power Manager">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-power-manager-settings]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/preferences-desktop-default-applications.svg" label="Preferred Applications">
+				<action name="Execute">
+					<execute>
+<![CDATA[exo-preferred-applications]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/pixmaps/gksu.png" label="Privilege granting">
+				<action name="Execute">
+					<execute>
+<![CDATA[gksu-properties]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/multimedia-volume-control.svg" label="PulseAudio Volume Control">
+				<action name="Execute">
+					<execute>
+<![CDATA[pavucontrol]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Removable Drives and Media">
+				<action name="Execute">
+					<execute>
+<![CDATA[thunar-volman-settings]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/rhythmbox.svg" label="Rhythmbox">
+				<action name="Execute">
+					<execute>
+<![CDATA[rhythmbox]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/ristretto.svg" label="Ristretto Image Viewer">
+				<action name="Execute">
+					<execute>
+<![CDATA[ristretto]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/gksu-root-terminal.svg" label="Root Terminal">
+				<action name="Execute">
+					<execute>
+<![CDATA[gksu /usr/bin/x-terminal-emulator]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/applets-screenshooter.png" label="Screenshot">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-screenshooter]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/xfce4-session.png" label="Session and Startup">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-session-settings]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/preferences-system.svg" label="Settings Editor">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-settings-editor]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/Thunar.png" label="Thunar File Manager">
+				<action name="Execute">
+					<execute>
+<![CDATA[thunar]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/wmtweaks.svg" label="Window Manager Tweaks">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfwm4-tweaks-settings]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/xfwm4.png" label="Window Manager">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfwm4-settings]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/xfce4-workspaces.png" label="Workspaces">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfwm4-workspace-settings]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/xarchiver.png" label="Xarchiver">
+				<action name="Execute">
+					<execute>
+<![CDATA[xarchiver]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Xfce Terminal">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-terminal]]>																							
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu icon="/usr/share/icons/hicolor/48x48/categories/applications-other.png" id="XFCE Applications" label="XFCE Applications">
+			<item icon="" label="About Xfce">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-about]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Application Finder">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-appfinder]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/multimedia-volume-control.svg" label="Audio Mixer">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-mixer]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="File Manager">
+				<action name="Execute">
+					<execute>
+<![CDATA[exo-open --launch FileManager]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/system-log-out.png" label="Log Out">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-session-logout]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Mail Reader">
+				<action name="Execute">
+					<execute>
+<![CDATA[exo-open --launch MailReader]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/xfcalendar.png" label="Orage Calendar">
+				<action name="Execute">
+					<execute>
+<![CDATA[orage]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/orage_globaltime.png" label="Orage Globaltime">
+				<action name="Execute">
+					<execute>
+<![CDATA[globaltime]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/xfcalendar.png" label="Orage preferences">
+				<action name="Execute">
+					<execute>
+<![CDATA[orage -p]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Run Program...">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-appfinder --collapsed]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/48x48/apps/xfce-sensors.png" label="Sensor Viewer">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-sensors]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Settings Manager">
+				<action name="Execute">
+					<execute>
+<![CDATA[xfce4-settings-manager]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Terminal Emulator">
+				<action name="Execute">
+					<execute>
+<![CDATA[exo-open --launch TerminalEmulator]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/web-browser.svg" label="Web Browser">
+				<action name="Execute">
+					<execute>
+<![CDATA[exo-open --launch WebBrowser]]>																							
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu icon="" id="GNOME Applications" label="GNOME Applications">
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/file-roller.svg" label="Archive Manager">
+				<action name="Execute">
+					<execute>
+<![CDATA[file-roller]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/bluefish.svg" label="Bluefish Editor">
+				<action name="Execute">
+					<execute>
+<![CDATA[bluefish]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/brasero.svg" label="Brasero">
+				<action name="Execute">
+					<execute>
+<![CDATA[brasero]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Calculator">
+				<action name="Execute">
+					<execute>
+<![CDATA[gnome-calculator]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Character Map">
+				<action name="Execute">
+					<execute>
+<![CDATA[gucharmap]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/256x256/apps/gnome-disks.png" label="Disks">
+				<action name="Execute">
+					<execute>
+<![CDATA[gnome-disks]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="gedit">
+				<action name="Execute">
+					<execute>
+<![CDATA[gedit]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/seahorse.svg" label="Passwords and Keys">
+				<action name="Execute">
+					<execute>
+<![CDATA[/usr/bin/seahorse]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/pixmaps/gksu.png" label="Privilege granting">
+				<action name="Execute">
+					<execute>
+<![CDATA[gksu-properties]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/rhythmbox.svg" label="Rhythmbox">
+				<action name="Execute">
+					<execute>
+<![CDATA[rhythmbox]]>																							
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu icon="" id="CLI Applications" label="CLI Applications">
+			<item icon="/usr/share/icons/Numix-Circle/48x48/apps/htop.svg" label="Htop">
+				<action name="Execute">
+					<execute>
+<![CDATA[xterm -e 'htop']]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Mopidy">
+				<action name="Execute">
+					<execute>
+<![CDATA[xterm -e 'mopidy']]>																							
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<menu icon="" id="Advanced Settings" label="Advanced Settings">
+			<item icon="" label="Conky RC">
+				<action name="Execute">
+					<execute>
+<![CDATA[geany ~/.conkyrc]]>																							
+					</execute>
+				</action>
+			</item>
+			<item icon="" label="Tint2 Panel">
+				<action name="Execute">
+					<execute>
+<![CDATA[geany ~/.config/tint2/tint2rc]]>																							
+					</execute>
+				</action>
+			</item>
+			<menu icon="/usr/share/icons/Numix-Circle/48x48/apps/menu-editor.svg" id="Obmenu-Generator" label="Obmenu-Generator">
+				<item icon="" label="Menu Schema">
+					<action name="Execute">
+						<execute>
+<![CDATA[geany ~/.config/obmenu-generator/schema.pl]]>																											
+						</execute>
+					</action>
+				</item>
+				<item icon="" label="Menu Config">
+					<action name="Execute">
+						<execute>
+<![CDATA[geany ~/.config/obmenu-generator/config.pl]]>																											
+						</execute>
+					</action>
+				</item>
+				<separator/>
+				<item icon="/usr/share/icons/Numix-Circle/48x48/apps/menu-editor.svg" label="Generate a pipe menu">
+					<action name="Execute">
+						<execute>
+<![CDATA[obmenu-generator -p]]>																											
+						</execute>
+					</action>
+				</item>
+				<item icon="/usr/share/icons/Numix-Circle/48x48/apps/menu-editor.svg" label="Generate a static menu">
+					<action name="Execute">
+						<execute>
+<![CDATA[obmenu-generator -s -c]]>																											
+						</execute>
+					</action>
+				</item>
+				<item icon="/usr/share/icons/Numix-Circle/48x48/apps/menu-editor.svg" label="Generate a pipe menu with icons">
+					<action name="Execute">
+						<execute>
+<![CDATA[obmenu-generator -p -i]]>																											
+						</execute>
+					</action>
+				</item>
+				<item icon="/usr/share/icons/Numix-Circle/48x48/apps/menu-editor.svg" label="Generate a static menu with icons">
+					<action name="Execute">
+						<execute>
+<![CDATA[obmenu-generator -s -i -c]]>																											
+						</execute>
+					</action>
+				</item>
+				<separator/>
+				<item icon="" label="Refresh Icon Set">
+					<action name="Execute">
+						<execute>
+<![CDATA[obmenu-generator -d]]>																											
+						</execute>
+					</action>
+				</item>
+			</menu>
+			<menu icon="/usr/share/pixmaps/openbox.png" id="Openbox" label="Openbox">
+				<item icon="/usr/share/pixmaps/openbox.png" label="Reconfigure Openbox">
+					<action name="Execute">
+						<execute>
+<![CDATA[openbox --reconfigure]]>																											
+						</execute>
+					</action>
+				</item>
+				<item icon="" label="Openbox Autostart">
+					<action name="Execute">
+						<execute>
+<![CDATA[geany ~/.config/openbox/autostart]]>																											
+						</execute>
+					</action>
+				</item>
+				<item icon="" label="Openbox RC">
+					<action name="Execute">
+						<execute>
+<![CDATA[geany ~/.config/openbox/rc.xml]]>																											
+						</execute>
+					</action>
+				</item>
+				<item icon="" label="Openbox Menu">
+					<action name="Execute">
+						<execute>
+<![CDATA[obmenu]]>
+						</execute>
+					</action>
+				</item>
+			</menu>
+		</menu>
+		<separator/>
+		<item icon="" label="Lock">
+			<action name="Execute">
+				<execute>
+<![CDATA[dm-tool lock]]>
+				</execute>
+			</action>
+		</item>
+		<item icon="" label="Exit">
+			<action name="Exit"/>
+		</item>
+	</menu>
+</openbox_menu>

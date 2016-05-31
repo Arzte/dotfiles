@@ -1,0 +1,13 @@
+Init...
+TeamViewer:        11.0.53191 - TAR_NI
+Profile:           /home/benjamin (benjamin)
+Desktop:           DS: 'bspwm' 	XDG: ''
+XServer TTY:       7
+
+ok (info)
+
+XRandRWait: No value set. Using default.
+XRandRWait: Started by user.
+FONTCONFIG_FILE: /home/benjamin/bin/teamviewer/tv_bin/script/fonts_portable.conf
+SetupWine: ok
+ok (profile)

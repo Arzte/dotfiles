@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/bin/dmenu_run -l 24 -fn 10x20

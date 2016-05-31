@@ -1,0 +1,28 @@
+#!/bin/sh
+
+forever=110
+read -r -p "About to login to doctors.us.to VPS server, Continue? [n/Y] " response
+case $response in
+    [nN]) 
+        echo "Nvm then, closing in five seconds...."
+        sleep 4
+        exit
+        ;;
+    *)
+        ssh -p 60210 benjamin@45.55.36.22
+        while [ $forever -ge 110 ]
+        do
+           read -r -p "Do you want to quit?? [n/Y] " anwser
+           case $anwser in
+               [nN])
+                   ssh -p 60210 benjamin@45.55.36.22
+                   ;; 
+                *)
+                   echo "Exiting in five seconds...."
+                   sleep 4
+                   exit
+                   ;;
+            esac
+        done
+        ;;
+esac

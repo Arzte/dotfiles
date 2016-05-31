@@ -1,0 +1,8 @@
+{
+    "settings": {
+        "server": "rtmp://live-ord.twitch.tv/app",
+        "service": "Twitch",
+        "show_all": false
+    },
+    "type": "rtmp_common"
+}

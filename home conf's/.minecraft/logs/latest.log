@@ -1,0 +1,2114 @@
+[10:46:39] [Client thread/INFO]: Setting user: Doctors
+[10:46:39] [Client thread/INFO]: (Session ID is token:c8d86dec408c492cb7bf39c0adc5ac40:8b2aa72a4bda4bf3b5df66046f644373)
+[10:46:47] [Client thread/INFO]: LWJGL Version: 2.9.4
+[10:47:29] [Client thread/INFO]: Reloading ResourceManager: Default
+[10:47:38] [Client thread/ERROR]: Couldn't initialize twitch stream
+[10:47:40] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[10:47:41] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[10:47:41] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[10:47:57] [Thread-6/INFO]: OpenAL initialized.
+[10:47:57] [Sound Library Loader/INFO]: Sound engine started
+[10:48:14] [Client thread/INFO]: Created: 512x512 textures-atlas
+[10:50:58] [Client thread/ERROR]: Can't ping obeliskgaming.net: Disconnected
+[10:51:14] [Client thread/INFO]: Connecting to play.alexandria-ns.com, 25565
+[10:51:50] [Client thread/INFO]: [CHAT] Hello, Doctors.
+[10:51:50] [Client thread/INFO]: [CHAT] The time now is 17:45 (5:45 pm) and you're in world 'The Overworld'.
+[10:51:50] [Client thread/INFO]: [CHAT] This is the default CommandBook MOTD! Adjust it in config.yml.
+[10:51:50] [Client thread/INFO]: [CHAT] See http://wiki.sk89q.com/wiki/CommandBook for more configuration information and help!
+[10:51:50] [Client thread/INFO]: [CHAT] Online (1/50): Doctors
+[10:51:50] [Client thread/INFO]: [CHAT] [mcMMO] Running version 1.5.00-b3547
+[10:51:50] [Client thread/INFO]: [CHAT] [mcMMO] http://dev.bukkit.org/server-mods/mcmmo/ - mcMMO Website
+[10:51:50] [Client thread/INFO]: [CHAT] Vault 15.6 is out! You are running 15.3
+[10:51:50] [Client thread/INFO]: [CHAT] Update Vault at: http://dev.bukkit.org/server-mods/vault
+[10:51:50] [Client thread/INFO]: [CHAT] Doctors joined the game
+[10:51:51] [Client thread/INFO]: [CHAT] Welcome, ~Doctors!
+[10:51:51] [Client thread/INFO]: [CHAT] Type /help for a list of commands.
+[10:51:51] [Client thread/INFO]: [CHAT] Type /list to see who else is online.
+[10:51:51] [Client thread/INFO]: [CHAT] Players online: 1 - World time: 3:45 PM
+[10:51:51] [Client thread/INFO]: [CHAT] You have no new mail.
+[10:51:51] [Client thread/INFO]: [CHAT] Set fly mode enabled for ~Doctors.
+[10:52:00] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:890) ~[1.8.9.jar:?]
+	at gp.a(SourceFile:81) ~[1.8.9.jar:?]
+	at gp.a(SourceFile:10) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:890) ~[1.8.9.jar:?]
+	at gp.a(SourceFile:81) ~[1.8.9.jar:?]
+	at gp.a(SourceFile:10) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:811) ~[1.8.9.jar:?]
+	at hw.a(SourceFile:46) ~[1.8.9.jar:?]
+	at hw.a(SourceFile:11) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:277) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:9) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:324) ~[1.8.9.jar:?]
+	at hz.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hz.a(SourceFile:10) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at hf.a(SourceFile:42) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:374) ~[1.8.9.jar:?]
+	at hf.a(SourceFile:38) ~[1.8.9.jar:?]
+	at hf.a(SourceFile:11) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:890) ~[1.8.9.jar:?]
+	at gp.a(SourceFile:81) ~[1.8.9.jar:?]
+	at gp.a(SourceFile:10) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:277) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:9) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at hf.a(SourceFile:42) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:374) ~[1.8.9.jar:?]
+	at hf.a(SourceFile:38) ~[1.8.9.jar:?]
+	at hf.a(SourceFile:11) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:890) ~[1.8.9.jar:?]
+	at gp.a(SourceFile:81) ~[1.8.9.jar:?]
+	at gp.a(SourceFile:10) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:890) ~[1.8.9.jar:?]
+	at gp.a(SourceFile:81) ~[1.8.9.jar:?]
+	at gp.a(SourceFile:10) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:453) ~[1.8.9.jar:?]
+	at go.a(SourceFile:54) ~[1.8.9.jar:?]
+	at go.a(SourceFile:12) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:277) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:9) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at hf.a(SourceFile:42) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:374) ~[1.8.9.jar:?]
+	at hf.a(SourceFile:38) ~[1.8.9.jar:?]
+	at hf.a(SourceFile:11) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:277) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:9) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:600) ~[1.8.9.jar:?]
+	at hu.a(SourceFile:41) ~[1.8.9.jar:?]
+	at hu.a(SourceFile:8) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:277) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:9) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at hf.a(SourceFile:42) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:374) ~[1.8.9.jar:?]
+	at hf.a(SourceFile:38) ~[1.8.9.jar:?]
+	at hf.a(SourceFile:11) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:277) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:9) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:287) ~[1.8.9.jar:?]
+	at hk.a(SourceFile:41) ~[1.8.9.jar:?]
+	at hk.a(SourceFile:11) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:277) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:9) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:287) ~[1.8.9.jar:?]
+	at hk.a(SourceFile:41) ~[1.8.9.jar:?]
+	at hk.a(SourceFile:11) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:277) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:9) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:324) ~[1.8.9.jar:?]
+	at hz.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hz.a(SourceFile:10) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:287) ~[1.8.9.jar:?]
+	at hk.a(SourceFile:41) ~[1.8.9.jar:?]
+	at hk.a(SourceFile:11) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:277) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:9) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:277) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:9) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:324) ~[1.8.9.jar:?]
+	at hz.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hz.a(SourceFile:10) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:287) ~[1.8.9.jar:?]
+	at hk.a(SourceFile:41) ~[1.8.9.jar:?]
+	at hk.a(SourceFile:11) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:277) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:9) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:287) ~[1.8.9.jar:?]
+	at hk.a(SourceFile:41) ~[1.8.9.jar:?]
+	at hk.a(SourceFile:11) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:287) ~[1.8.9.jar:?]
+	at hk.a(SourceFile:41) ~[1.8.9.jar:?]
+	at hk.a(SourceFile:11) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:277) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:9) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$c.a(SourceFile:93) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at hf.a(SourceFile:42) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:374) ~[1.8.9.jar:?]
+	at hf.a(SourceFile:38) ~[1.8.9.jar:?]
+	at hf.a(SourceFile:11) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:287) ~[1.8.9.jar:?]
+	at hk.a(SourceFile:41) ~[1.8.9.jar:?]
+	at hk.a(SourceFile:11) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:277) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:9) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:287) ~[1.8.9.jar:?]
+	at hk.a(SourceFile:41) ~[1.8.9.jar:?]
+	at hk.a(SourceFile:11) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:01] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:287) ~[1.8.9.jar:?]
+	at hk.a(SourceFile:41) ~[1.8.9.jar:?]
+	at hk.a(SourceFile:11) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$c.a(SourceFile:93) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at hf.a(SourceFile:42) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:374) ~[1.8.9.jar:?]
+	at hf.a(SourceFile:38) ~[1.8.9.jar:?]
+	at hf.a(SourceFile:11) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:287) ~[1.8.9.jar:?]
+	at hk.a(SourceFile:41) ~[1.8.9.jar:?]
+	at hk.a(SourceFile:11) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:287) ~[1.8.9.jar:?]
+	at hk.a(SourceFile:41) ~[1.8.9.jar:?]
+	at hk.a(SourceFile:11) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:287) ~[1.8.9.jar:?]
+	at hk.a(SourceFile:41) ~[1.8.9.jar:?]
+	at hk.a(SourceFile:11) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:277) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:9) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at hf.a(SourceFile:42) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:374) ~[1.8.9.jar:?]
+	at hf.a(SourceFile:38) ~[1.8.9.jar:?]
+	at hf.a(SourceFile:11) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:277) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:9) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at hf.a(SourceFile:42) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:374) ~[1.8.9.jar:?]
+	at hf.a(SourceFile:38) ~[1.8.9.jar:?]
+	at hf.a(SourceFile:11) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:287) ~[1.8.9.jar:?]
+	at hk.a(SourceFile:41) ~[1.8.9.jar:?]
+	at hk.a(SourceFile:11) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:287) ~[1.8.9.jar:?]
+	at hk.a(SourceFile:41) ~[1.8.9.jar:?]
+	at hk.a(SourceFile:11) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:287) ~[1.8.9.jar:?]
+	at hk.a(SourceFile:41) ~[1.8.9.jar:?]
+	at hk.a(SourceFile:11) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:277) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:9) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at hf.a(SourceFile:42) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:374) ~[1.8.9.jar:?]
+	at hf.a(SourceFile:38) ~[1.8.9.jar:?]
+	at hf.a(SourceFile:11) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:277) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:9) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at hf.a(SourceFile:42) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:374) ~[1.8.9.jar:?]
+	at hf.a(SourceFile:38) ~[1.8.9.jar:?]
+	at hf.a(SourceFile:11) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:600) ~[1.8.9.jar:?]
+	at hu.a(SourceFile:41) ~[1.8.9.jar:?]
+	at hu.a(SourceFile:8) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:277) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:9) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:277) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:9) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at hf.a(SourceFile:42) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:374) ~[1.8.9.jar:?]
+	at hf.a(SourceFile:38) ~[1.8.9.jar:?]
+	at hf.a(SourceFile:11) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:277) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:9) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:277) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:9) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:277) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:9) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:277) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:9) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:277) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:9) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:277) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:9) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:277) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:9) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:277) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:9) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:277) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:9) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:277) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:9) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at gv.a(SourceFile:153) ~[1.8.9.jar:?]
+	at bcy.a(SourceFile:355) ~[1.8.9.jar:?]
+	at gv.a(SourceFile:144) ~[1.8.9.jar:?]
+	at gv$a.a(SourceFile:61) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+	at bcy.a(SourceFile:277) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:66) ~[1.8.9.jar:?]
+	at hm.a(SourceFile:9) ~[1.8.9.jar:?]
+	at fh$1.run(SourceFile:13) ~[1.8.9.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_77]
+	at g.a(SourceFile:44) ~[1.8.9.jar:?]
+	... 3 more
+[10:52:07] [Client thread/INFO]: Connecting to play.alexandria-ns.com, 25565
+[10:52:09] [Client thread/INFO]: [CHAT] Hello, Doctors.
+[10:52:09] [Client thread/INFO]: [CHAT] The time now is 18:35 (6:35 pm) and you're in world 'The Overworld'.
+[10:52:09] [Client thread/INFO]: [CHAT] This is the default CommandBook MOTD! Adjust it in config.yml.
+[10:52:09] [Client thread/INFO]: [CHAT] See http://wiki.sk89q.com/wiki/CommandBook for more configuration information and help!
+[10:52:09] [Client thread/INFO]: [CHAT] Online (1/50): Doctors
+[10:52:09] [Client thread/INFO]: [CHAT] [mcMMO] Running version 1.5.00-b3547
+[10:52:09] [Client thread/INFO]: [CHAT] [mcMMO] http://dev.bukkit.org/server-mods/mcmmo/ - mcMMO Website
+[10:52:09] [Client thread/INFO]: [CHAT] Vault 15.6 is out! You are running 15.3
+[10:52:09] [Client thread/INFO]: [CHAT] Update Vault at: http://dev.bukkit.org/server-mods/vault
+[10:52:09] [Client thread/INFO]: [CHAT] Doctors joined the game
+[10:52:09] [Client thread/INFO]: [CHAT] Welcome, ~Doctors!
+[10:52:09] [Client thread/INFO]: [CHAT] Type /help for a list of commands.
+[10:52:09] [Client thread/INFO]: [CHAT] Type /list to see who else is online.
+[10:52:09] [Client thread/INFO]: [CHAT] Players online: 1 - World time: 4:35 PM
+[10:52:09] [Client thread/INFO]: [CHAT] You have no new mail.
+[10:52:09] [Client thread/INFO]: [CHAT] Set fly mode enabled for ~Doctors.
+[10:52:35] [Client thread/INFO]: Warning: Clientside chunk ticking took 2182 ms
+[10:52:38] [Client thread/INFO]: Warning: Clientside chunk ticking took 131 ms
+[10:52:42] [Client thread/INFO]: [CHAT] You set the weather to sun in The Overworld.
+[10:53:57] [Client thread/INFO]: [CHAT] Added Anarchy_physics to the whitelist
+[10:54:14] [Client thread/INFO]: [CHAT] Added sawtooth44 to the whitelist
+[10:54:15] [Client thread/INFO]: [CHAT] [Server: Saving is already turned on.]
+[10:54:15] [Client thread/INFO]: [CHAT] [Server: Saved the world]
+[10:54:15] [Client thread/INFO]: [CHAT] <*Console> World saved.
+[10:54:17] [Client thread/INFO]: [CHAT] <*Console> <> Come and visit our Discord Channel: https://discordapp.com/invite/0atbCnjZ7RvtosUG
+[10:57:14] [Client thread/INFO]: [CHAT] You are now marked as AFK.
+[10:59:15] [Client thread/INFO]: [CHAT] * ~Doctors is now AFK.
+[10:59:17] [Client thread/INFO]: [CHAT] <*Console> <> Come and visit our Forum: http://www.alexandria-ns.com!
+[11:04:23] [Client thread/INFO]: [CHAT] [Server: Saving is already turned on.]
+[11:04:23] [Client thread/INFO]: [CHAT] [Server: Saved the world]
+[11:04:23] [Client thread/INFO]: [CHAT] <*Console> World saved.
+[11:07:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+[11:07:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+[11:07:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+[11:07:02] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_77]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_77]
+	at g.a(SourceFile:45) [1.8.9.jar:?]
+	at ave.av(SourceFile:881) [1.8.9.jar:?]
+	at ave.a(SourceFile:325) [1.8.9.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.9.jar:?]
+Caused by: java.lang.NullPointerException
+[11:07:03] [Client thread/ERROR]: Can't ping obeliskgaming.net: Disconnected
+[11:07:06] [Client thread/INFO]: Stopping!
+[11:07:06] [Client thread/INFO]: SoundSystem shutting down...
+[11:07:11] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

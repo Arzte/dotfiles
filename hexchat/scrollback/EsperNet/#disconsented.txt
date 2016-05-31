@@ -1,0 +1,90 @@
+T 1456062022 19*	Now talking on 22#disconsented
+T 1456062022 22*	Topic for 22#disconsented is: type "$time" for current local time - Travis is happy, builds working again (https://github.com/disconsented/ANSSRPG/releases) - http://minecraft.curseforge.com/projects/anssrpg - Please read and comment on http://bit.ly/1K4z9Lb
+T 1456062022 22*	Topic for 22#disconsented set by 26DrDisconsented!~core@disconsented.com (24Sat Jan  2 15:37:49 2016)
+T 1456062022 -18EsperBot-	[#Disconsented] Hello and welcome! We may not be active at the moment but if you leave a message we will see it eventually. Somtimes we're just afk and may take 20 minutes or so to respond.
+T 1456062081 20*	You are now known as 18Doctors
+T 1456062930 20<Doctors>30	openbox is awesome
+T 1456062942 20<Doctors>30	good bye xfce you have been replaced
+T 1456064880 FiSHLiM plugin unloaded
+T 1456113262 19*	Now talking on 22#disconsented
+T 1456113262 22*	Topic for 22#disconsented is: type "$time" for current local time - Travis is happy, builds working again (https://github.com/disconsented/ANSSRPG/releases) - http://minecraft.curseforge.com/projects/anssrpg - Please read and comment on http://bit.ly/1K4z9Lb
+T 1456113262 22*	Topic for 22#disconsented set by 26DrDisconsented!~core@disconsented.com (24Sat Jan  2 15:37:49 2016)
+T 1456113262 -18EsperBot-	[#Disconsented] Hello and welcome! We may not be active at the moment but if you leave a message we will see it eventually. Somtimes we're just afk and may take 20 minutes or so to respond.
+T 1456113318 20<Doctors>30	compton is also cool, after you spend a hour or two configuring transparency and shadows correctly
+T 1456113365 18<Disconsented18>	Oh neat
+T 1456113391 20<Doctors>30	I have a very nice ob setup
+T 1456113391 19<Disconsented>	sec Doctors ill reset your password
+T 1456113397 20<Doctors>30	alright cool
+T 1456113436 24*	Krypteron has quit (Quit: Web client closed)
+T 1456113552 20<Doctors>30	http://i.imgur.com/HXMvsIn.png
+T 1456113558 18<Disconsented18>	ugh
+T 1456113563 18<Disconsented18>	why the fuck is middle mouse paste
+T 1456113573 20<Doctors>30	xlol
+T 1456113582 18<dmod18>	hi james
+T 1456113597 20<Doctors>30	hey dmod, what's up?
+T 1456113601 18<Disconsented18>	woo shift insert
+T 1456113609 18<Disconsented18>	done
+T 1456113615 18<Disconsented18>	ello dmod
+T 1456113619 18<dmod18>	nm just learning atl xml
+T 1456113665 18<Disconsented18>	at launcher?
+T 1456113672 18<dmod18>	yup
+T 1456113675 18<Disconsented18>	Why?
+T 1456113677 18<Disconsented18>	Voltz?
+T 1456113685 18<dmod18>	no ohmz
+T 1456113691 18<dmod18>	voltz == null
+T 1456113718 23*	Krypteron (webchat@120.29.148.5523) has joined
+T 1456113724 18<dmod18>	james join ts.shadowcity.net
+T 1456113735 18<Disconsented18>	cant
+T 1456113744 18<dmod18>	y
+T 1456113759 18<The_Doctors_Life18>	t
+T 1456113762 18<The_Doctors_Life18>	yeah!
+T 1456113767 18<dmod18>	hey doc
+T 1456113774 FiSHLiM plugin unloaded
+T 1456685126 19*	Now talking on 22#disconsented
+T 1456685126 22*	Topic for 22#disconsented is: type "$time" for current local time - Travis is happy, builds working again (https://github.com/disconsented/ANSSRPG/releases) - http://minecraft.curseforge.com/projects/anssrpg - Please read and comment on http://bit.ly/1K4z9Lb
+T 1456685126 22*	Topic for 22#disconsented set by 26DrDisconsented!~core@disconsented.com (24Sat Jan  2 15:37:49 2016)
+T 1456685126 -18EsperBot-	[#Disconsented] Hello and welcome! We may not be active at the moment but if you leave a message we will see it eventually. Somtimes we're just afk and may take 20 minutes or so to respond.
+T 1456686134 20<Doctors>30	Disconsented, are you on right now?
+T 1456686138 20<Doctors>30	$time
+T 1456686138 19<LordVoldemort>	(Doctors) The time is: 08:02:56.088754
+T 1456687193 20<Doctors>30	Disconsented, IDK if possible with cloudflare
+T 1456687204 20<Doctors>30	but if you enable Strict Transport Security (HSTS)
+T 1456687217 20<Doctors>30	you can get a A+ from ssl labs
+T 1456689628 19<Disconsented>	I'm connected via it right now Doctors 
+T 1456689652 20<Doctors>30	weird
+T 1456689660 20<Doctors>30	I keep getting connection timeouts
+T 1456690541 18<Disconsented18>	Did you get the memo?
+T 1456692000 23*	Scratch (~chatzilla@node-1w7jr9ssookyggf817lfp1ai4.ipv6.telus.net23) has joined
+T 1456693576 20<Doctors>30	what memo?
+T 1456693603 -18Disconsented-	connect via quassel.disconsented.com
+T 1456693632 20<Doctors>30	ahh
+T 1456693634 20<Doctors>30	thanks
+T 1456693671 20<Doctors>30	still getting timeouts
+T 1456693678 20<Doctors>30	let me ping it real fast
+T 1456693718 20<Doctors>30	nope there it goes
+T 1456693763 -18SaslServ-	The_Doctors_Life!~doctor@107.170.227.20 has just authenticated as you (The_Doctors_Life)
+T 1456693767 23*	The_Doctors_Life (~doctor@107.170.227.2023) has joined
+T 1456693805 18<The_Doctors_Life18>	t
+T 1456693808 18<The_Doctors_Life18>	hurray!
+T 1456693830 18<The_Doctors_Life18>	ahh
+T 1456693843 18<The_Doctors_Life18>	next time i'll check for memos Disconsented 
+T 1456693855 18<Disconsented18>	:)
+T 1459360285 19*	Now talking on 22#disconsented
+T 1459360285 22*	Topic for 22#disconsented is: type "$time" for current local time - Travis is happy, builds working again (https://github.com/disconsented/ANSSRPG/releases) - http://minecraft.curseforge.com/projects/anssrpg
+T 1459360285 22*	Topic for 22#disconsented set by 26Disconsented!~core@disconsented.com (24Thu Mar 17 05:43:44 2016)
+T 1459360285 -18EsperBot-	[#Disconsented] Hello and welcome! We may not be active at the moment but if you leave a message we will see it eventually. Somtimes we're just afk and may take 20 minutes or so to respond.
+T 1459360363 20<The_Doctors_Life>30	Disconsented, did you change your quassel url again?
+T 1459390377 19*	Now talking on 22#disconsented
+T 1459390377 22*	Topic for 22#disconsented is: type "$time" for current local time - Travis is happy, builds working again (https://github.com/disconsented/ANSSRPG/releases) - http://minecraft.curseforge.com/projects/anssrpg
+T 1459390377 22*	Topic for 22#disconsented set by 26Disconsented!~core@disconsented.com (24Thu Mar 17 05:43:44 2016)
+T 1459390377 -18EsperBot-	[#Disconsented] Hello and welcome! We may not be active at the moment but if you leave a message we will see it eventually. Somtimes we're just afk and may take 20 minutes or so to respond.
+T 1459390463 20<The_Doctors_Life>30	Disconsented, can you reply to my early inquiry? I would have waited. but I borked my system perms (/ had 700 on it)
+T 1459390481 18<Disconsented18>	Oh you're back
+T 1459390482 18<Disconsented18>	yeah
+T 1459390484 18<Disconsented18>	old url
+T 1459390489 18<Disconsented18>	cause attacks stopped
+T 1459390559 18<Doctors18>	Hurray!
+T 1459390565 18<Doctors18>	I'm back in
+T 1459390568 18<Disconsented18>	:)
+T 1459390572 18<Doctors18>	glad the attacks stop
+T 1459390581 FiSHLiM plugin unloaded

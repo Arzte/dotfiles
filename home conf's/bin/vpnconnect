@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#Annouce that we are starting openvpn
+echo 'Starting openvpn in 2 seconds'
+
+secs=2
+
+while [ $secs -gt 0 ]; do
+   echo -ne "$secs\033[0K\r"
+   sleep 1
+   : $((secs--))
+done
+
+gksu "openvpn --script-security 2 --config /home/benjamin/.ssl/home/laptop.ovpn"

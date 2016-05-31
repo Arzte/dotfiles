@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=TeamViewer 11
+Comment=TeamViewer Remote Control Application
+Exec=/home/benjamin/bin/teamviewer/tv_bin/script/teamviewer
+Icon=/home/benjamin/bin/teamviewer/tv_bin/desktop/teamviewer.png
+Type=Application
+Categories=Network;
+#Categories=Network;RemoteAccess;
+

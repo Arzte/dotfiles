@@ -1,0 +1,8 @@
+The binaries in this folder (RTlib) are provided for convenience.
+They enable parts of TeamViewer to be run independently from any system libraries,
+so no additional dependencies have to be installed.
+
+Copyright notes for each file can be found in the doc/* subfolders.
+
+The source code of all libraries can be downloaded from
+http://www.teamviewer.com/link/?url=892927

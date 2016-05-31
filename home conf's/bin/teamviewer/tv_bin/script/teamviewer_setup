@@ -1,0 +1,532 @@
+#!/bin/bash
+
+TV_SCRIPT_DIR="$(dirname "$(readlink -e "$0")")"
+source "$TV_SCRIPT_DIR/tvw_main"
+
+TV_MAJOR=11
+TV_PACKAGE_INSTALL='yes'
+TV_CHECKLIB_DIR='/tmp/teamviewerTARLibCheck'
+
+function TVSetup()
+{
+  CheckInteractive $#
+
+  local mainAction="$1"
+  local mainForce="$2"	# force
+  local mainParam="$3"	# update / finish (internal use)
+
+  case "$mainAction" in
+    ( 'checklibs' ) CheckLibs       ;;
+    ( 'install'   ) InstallTar      ;;
+    ( 'uninstall' ) InstallTar 'un' ;;
+    ( *           ) PrintInfo       ;;
+  esac
+}
+
+function CheckInteractive()
+{
+  [ "$1" = 0 ] || return	# prevent recursion in case of error
+
+  cmdExists tty || return	# fail gracefully
+  tty -s
+  [ $? = 0 ] && return		# we have a tty - check successful
+
+  # try to call self with terminal emulator
+  local cmd="$0 --nocheck"
+  local geomp='600x400+300+100'
+  local geomc='120x40+300+100'
+  if cmdExists konsole; then
+    konsole --hold -e "$cmd"
+  elif cmdExists gnome-terminal; then
+    gnome-terminal --geometry=$geomc -e "/bin/bash -c '$cmd; exec bash -i'"
+  else
+    xterm -geometry $geomc -hold -e "$cmd"
+  fi
+
+  exit
+}
+
+
+
+function PrintInfo()
+{
+  echo
+  ABecho 'How to use TeamViewer (tar.gz)'
+  echo
+  ABecho 'teamviewer' 'run teamviewer directly'
+  echo   '   You can just extract the tar.gz package and run 'teamviewer' without installation.'
+  echo   '   It will behave similar to a TeamViewer Portable or QuickSupport on Windows.'
+  echo   '   This should work if all necessary libraries (packages) are installed on your system.'
+  echo
+  ABecho 'tv-setup checklibs' 'identify missing libraries'
+  echo   '   Run this command to identify missing libraries'
+  echo   '   You can then look for the matching packages and install them manually.'
+  echo
+  ABecho 'tv-setup install' 'interactive installation'
+  ABecho 'tv-setup install force' 'no questions'
+  echo   '   A permanent installation with all the features of the RPM/DEB packages'
+  echo   '   (start menu entries, auto start, background daemon for permanent access)'
+  echo
+  ABecho 'tv-setup uninstall [force]' 'undo previous (TAR) installation'
+  echo   '   Removes the package. Log files and configuration are not removed'
+  echo
+  echo
+}
+
+
+
+function CheckLibs()
+{
+  local silent="$1"
+
+  if [ -n "$silent" ]; then
+    ABecho 'Checking dependencies'
+  else
+    echo
+    ABecho '   -=-   TeamViewer tar.gz check   -=-   '
+    echo
+    echo   '  In order to use the tar.gz version of TeamViewer, '
+    echo   '  you have to make sure that the necessary libraries are installed.'
+    ABecho ' NOTE: Most needed libraries are 32 bit libraries, even if you are on a 64 bit system!'
+    echo
+  fi
+
+  cmdExists ldd || Rdie 'ldd not found. ldd needs to be installed'
+
+  CheckSupportedArchitecture
+
+  # ldd "$TV_BIN_DIR/wine/bin/wine"						# pthread
+  # ldd "$TV_BIN_DIR/wine/lib/wine/winex11.drv.so"		# X11, Xext, Xau, Xdmcp
+  # ldd "$TV_BIN_DIR/wine/lib/wine/winealsa.drv.so"		# asound, pthread, rt
+
+  local wininet="$TV_BIN_DIR/wine/lib/wine/wininet.dll.so"			# z
+  local winedll="$TV_BIN_DIR/wine/drive_c/TeamViewer/tvwine.dll.so"	# X11, Xext, Xtst, Xdamage, Xfixes, Xau, Xdmcp
+  local ldepend="$TV_BIN_DIR/script/libdepend"						#                  ICE, SM,            Xau, xcb, Xdmcp        Xrender,                fontconfig, freetype (expat, png, z)
+  local tvdaemn="$TV_BIN_DIR/teamviewerd"							# dl, pthread, rt, dbus,               X11, Xau, xcb, Xdmcp
+  local tvdeskt="$TV_BIN_DIR/TeamViewer_Desktop"					# dl, pthread, rt, dbus, ICE, SM, uuid, X11, Xau, xcb, Xdmcp, Xext, Xrender, Xdamage, libXfixes, Xrandr, Xtst
+  local tvdeleg="$TV_BIN_DIR/TVGuiDelegate"							# dl, pthread, rt, dbus, ICE, SM, uuid, X11, Xau, xcb, Xdmcp, Xext, Xrender, Xinerama, Qt*, fontconfig, freetype (expat, png, z)
+  local tvslv32="$TV_BIN_DIR/TVGuiSlave.32"							# dl, pthread, rt, dbus, ICE, SM, uuid, X11, Xau, xcb, Xdmcp,  asound
+  local tvslv64="$TV_BIN_DIR/TVGuiSlave.64"							# dl, pthread, rt, dbus, ICE, SM, uuid, X11, Xau, xcb, Xdmcp,  asound
+
+  local logdir="$TV_LOG_DIR"						# save logs in TAR directory in interactive mode
+  if [ -n "$silent" ]; then							# save in /tmp in silent (install/root) mode
+    mkdir -p "$TV_CHECKLIB_DIR"
+    logdir="$TV_CHECKLIB_DIR"
+  fi
+
+  local lddlog32="$logdir/DependencyCheck32.log"
+  local lddlog64="$logdir/DependencyCheck64.log"
+
+  echo > "$lddlog32" || Rdie "could not write to $lddlog32"
+  [ -z "$silent" ]   && echo "    Writing raw output to $lddlog32"
+
+  CheckLibDependency 'WINEINET' "$wininet" "$lddlog32" "$TV_WINE_DIR/lib"
+  CheckLibDependency 'WINE_DLL' "$winedll" "$lddlog32" "$TV_WINE_DIR/lib"
+  CheckLibDependency 'DEPEND'   "$ldepend" "$lddlog32"
+  CheckLibDependency 'TV_DMN'   "$tvdaemn" "$lddlog32"
+  CheckLibDependency 'TV_DESK'  "$tvdeskt" "$lddlog32"
+  CheckLibDependency 'TV_DELEG' "$tvdeleg" "$lddlog32" "$TV_RTLIB_DIR"
+
+  if has64BitSupport; then
+    echo > "$lddlog64" || Rdie "could not write to $lddlog64"
+    [ -z "$silent" ]   && echo "    Writing raw output to $lddlog64"
+    CheckLibDependency 'TV_SLAVE' "$tvslv64" "$lddlog64"
+  else
+    CheckLibDependency 'TV_SLAVE' "$tvslv32" "$lddlog32"
+  fi
+
+  local fail64
+  local fail32
+
+  if has64BitSupport; then
+    AnalyzeLddResult 64 "$lddlog64" || { LibInstallHint 64; fail64=x; }
+  fi
+    AnalyzeLddResult 32 "$lddlog32" || { LibInstallHint 32; fail32=x; }
+
+  if [ -n "$silent" ]; then
+    if [ -n "$fail64" ]; then
+      AskPermission 'Missing 64 bit libraries' 'It is recommended that you first install the missing libraries. However, these are not essential for basic operation.'
+    fi
+    if [ -n "$fail32" ]; then
+      Recho "Serious Problem - installation should be aborted"
+      AskPermission 'Missing 32 bit libraries' 'TeamViewer will not be operational without these libraries. Please install then and try again.'
+    fi
+
+    # copy logfiles - make sure they will be included in a ziplog
+    mkdir -p "$TV_TARIN_LOGDIR"
+    cp $TV_CHECKLIB_DIR/* "$TV_TARIN_LOGDIR"
+ fi
+
+ echo
+}
+
+function CheckLibDependency()
+{
+  local caption="$1"
+  local binary="$2"
+  local logfile="$3"
+  local ld_path="$4" 	# may be empty
+
+  [ -f "$binary" ] || Rdie "unexpected error: file '$binary' not found."
+
+  echo "$caption" >> "$logfile"
+
+  # force english output for ldd
+  # set library path (delegate)
+  LC_ALL='C' 					  \
+  LD_LIBRARY_PATH="$ld_path"	   \
+  ldd "$binary"   >> "$logfile" || CheckLddResult "$logfile"
+}
+
+function CheckLddResult()
+{
+  local lddlogfile="$1"
+
+  Recho "An error occurred."
+
+  # Check for 'not a dynamic executable
+  cat "$lddlogfile" | grep -q dynamic || return
+
+  echo "
+    Your system probably does not support 32 bit binaries (yet).
+    If you are on a 64 bit Intel/AMD system, you might need to install
+    initial 32 bit support by installing a basic 32 bit package, for example:
+      apt-get install libc6:i386		(DEB multiarch, > ~2012)
+      apt-get install libc6-i386 ia32-libs	(DEB legacy,    < ~2012)
+      yum install glibc.i686			(RPM RedHat)
+      zypper install glibc.i686			(RPM Suse)
+    or similar.
+
+    On DEB systems (Debian, Ubuntu, Mint) you may have to enable multi-arch support.
+    See http://wiki.debian.org/Multiarch/HOWTO
+    
+    "
+
+    exit 1
+}
+
+function AnalyzeLddResult()
+{
+  local arch="$1"
+  local lddlogfile="$2"
+
+  echo
+  ABecho "Analyzing dependencies ($arch bit)..."
+
+  cat "$lddlogfile" | sort -u | grep 'not found'
+  local result=$?
+
+  if [ $result != 0 ]; then
+    Gecho "\n\tAll $arch bit dependencies seem to be satisfied!"
+    return 0
+  else
+    Recho "\n\tThe $arch bit libraries listed above seem to be missing."
+    echo -e "\tPlease find and install the corresponding packages.\n\tThen, run this command again."
+    return 1
+  fi
+}
+
+function LibInstallHint()
+{
+  local arch="$1"
+  local debCmd=$(debCommand)
+  local rpmCmd=$(rpmCommand)
+
+  local rpm64='libdbus-1.so.3 libasound.so.2 libSM.so.6 libXfixes.so.3'
+  local deb64='libdbus-1-3 libasound2 libsm6 libxfixes3'
+  local deb64legacy='libc6-i386 lib32asound2 lib32z1 ia32-libs'
+  local rpm32='libdbus-1.so.3 libasound.so.2 libexpat.so.1 libfontconfig.so.1 libfreetype.so.6 libjpeg.so.62 libpng12.so.0 libSM.so.6 libXdamage.so.1 libXext.so.6 libXfixes.so.3 libXinerama.so.1 libXrandr.so.2 libXrender.so.1 libXtst.so.6 libz.so.1'
+  local deb32='libdbus-1-3 libasound2 libexpat1 libfontconfig1 libfreetype6 libjpeg62 libpng12-0 libsm6 libxdamage1 libxext6 libxfixes3 libxinerama1 libxrandr2 libxrender1 libxtst6 zlib1g'
+  local rpm32_pkg='dbus-libs.i686 alsa-lib.i686 expat.i686 fontconfig.i686 freetype.i686 libICE.i686 libSM.i686 libX11.i686 libXau.i686 libXdamage.i686 libXext.i686 libXfixes.i686 libXi.i686 libXinerama.i686 libXrandr.i686 libXrender.i686 libXtst.i686 libgcc.i686 libjpeg-turbo.i686 libpng.i686 libpng12.i686 libuuid.i686 libxcb.i686 zlib.i686'
+
+  local deb32_i386=$(wordAppend "$deb32" ":i386")
+  local deb32_i686=$(wordAppend "$deb32" ":i686")
+
+  if [ "$arch" = 64 ]; then	# GuiSlave64
+    [ -n "$debCmd" ] && PrintLibInstallHint "$debCmd" "$deb64" && return
+    [ -n "$rpmCmd" ] && PrintLibInstallHint "$rpmCmd" "$rpm64" && return
+  fi
+
+  if [ "$arch" = 32 ]; then	# 32 bit binaries
+    if has64BitSupport; then	# 64 bit system
+      if [ -n "$debCmd" ]; then
+        if hasI386Libs; then        # DEB system, multiarch
+          PrintLibInstallHint "$debCmd" "$deb32_i386" && return
+          PrintLibInstallHint "$debCmd" "$deb32_i686" && return
+        elif hasIA32Libs; then	    # DEB system, legacy
+          PrintLibInstallHint "$debCmd" "$deb64legacy" && return
+        fi
+      fi
+      if [ -n "$rpmCmd" ]; then     # RPM system
+        PrintLibInstallHint "$rpmCmd" "$rpm32" && return
+        PrintLibInstallHint "$rpmCmd" "$rpm32_pkg" && return
+      fi
+    else			# 32 bit system
+      [ -n "$debCmd" ] && PrintLibInstallHint "$debCmd" "$deb32" && return
+      [ -n "$rpmCmd" ] && PrintLibInstallHint "$rpmCmd" "$rpm32" && return
+    fi
+  fi
+}
+
+function PrintLibInstallHint()
+{
+  echo -e "\n\tThe following command may be helpful:\n\t  \E[1m$1 $2\E[0m\n"
+}
+
+function debCommand()
+{
+  cmdExists apt-get && echo "apt-get install"
+}
+
+function rpmCommand()
+{
+  cmdExists zypper && echo "zypper install" && return
+  cmdExists dnf    && echo "dnf install"    && return
+  cmdExists yum    && echo "yum install"
+}
+
+function wordAppend()
+{
+  local list="$1"
+  local appendix="$2"
+  local result
+
+  for word in $list; do
+    result="$result$word$appendix "
+  done
+
+  echo "$result"
+}
+
+
+
+function InstallTar()
+{
+  local un="$1"
+
+  InstallTarHead
+
+  isSuperUser || Rdie "You need to be root to ${un}install the package"
+
+  # only call once during installation. (Don't call on finish or un uninstall/update)
+  [ -z "$mainParam" ] && [ -z "$un" ] && CheckLibs silent
+
+  local installDir="$TV_INSTALL_BASE_DIR"
+  local tvwConfig="$installDir/tv_bin/script/tvw_config"
+  local instSetup="$installDir/tv_bin/script/teamviewer_setup"
+
+  if [ -n "$un" ]; then     # uninstall
+    UnInstallTar
+  else                      # install
+    if [ "$mainParam" == 'finish' ]; then
+      Configure
+    else
+      PrepareInstallation
+      InstallFiles
+      FinishInstallation
+    fi
+  fi
+}
+
+function InstallTarHead()
+{
+  if [ -z "$mainForce" ]; then
+    
+    [ -n "$un" ] && [ "$mainParam" == 'update' ] && return	# don't show uninstall header during update
+    [ -z "$un" ] && [ "$mainParam" == 'finish' ] && return	# don't show install header during configure
+
+    echo
+    ABecho "   -=-   TeamViewer tar.gz interactive ${un}installation   -=-   "
+    echo
+  else
+    [ "$mainForce" = "force" ] || Rdie "Invalid argument: '$mainForce'."
+  fi  
+}
+
+function UnInstallTar()
+{
+  local uninstall
+  local uninstMsg='Uninstalling old package...'
+
+  UninstallListAdd "$installDir/tv_bin"      # must exist if tvwConfig exists
+  UninstallListAdd "$installDir/doc"
+  UninstallListAdd "$installDir/logfiles"
+  UninstallListAdd "$installDir/config"
+  UninstallListAdd "/usr/bin/teamviewer"
+#  UninstallListAdd "/var/log/teamviewer$TV_MAJOR"	# don't remove, according to help message
+#  UninstallListAdd '/etc/teamviewer'
+
+  CheckCurrentInstallationType
+
+  [ -n "$mainForce" ] && ABecho "$uninstMsg" # print message, even if not asking for permission
+  AskPermission "$uninstMsg" "These files and directories will be deleted:
+    $uninstall"
+
+  updateMenuEntries 'uninstall'
+  removeDaemon
+
+  rm -rf $uninstall || Rdie 'Could not delete files'
+
+  if [ "$mainParam" == "update" ]; then
+    echo
+  else
+    Gecho   '  Done!'
+    echo -e '    TeamViewer TAR has been sucessfully removed.'
+    echo
+  fi
+}
+
+function UninstallListAdd()
+{
+#expectVariables uninstall
+  local path="$1"
+  [ -e "$path" ] || return
+  [ -n "$uninstall" ] && uninstall+=' '
+  uninstall+="$path"
+}
+
+function PrepareInstallation()
+{
+  [ -d "$installDir" ] || return
+
+  if [ -f "$tvwConfig" ]; then		# already installed
+    CheckCurrentInstallationType
+
+    [ -x "$instSetup" ] || Rdie "Can't uninstall previous package: missing file '$instSetup'."
+
+    "$instSetup" uninstall "$mainForce" update || Rdie 'Failed to uninstall previous package'
+  fi
+}
+
+function FinishInstallation()
+{
+    [ -x "$instSetup" ] || Rdie "Can't finish installation: missing file '$instSetup'."
+    "$instSetup" install "$mainForce" finish
+}
+
+function Configure()
+{
+  InitGlobalSettings			# before installDaemon
+  
+  AskPermission 'Install daemon?' "Note: You can (un)install the daemon at any time.
+  Commands are explained in 'teamviewer help'" 'return'
+  [ $? = 0 ] && installDaemon
+
+  AskPermission 'Create menu entries?' 'Creates menu entries for your desktop environment.' 'return'
+  [ $? = 0 ] && updateMenuEntries 'install'
+  
+  Gecho   '  Done!'
+  echo -e '    TeamViewer TAR has been sucessfully installed.'
+  echo -e '    Run \E[1mteamviewer help\E[0m for more information.'
+  echo
+}
+
+function CheckCurrentInstallationType()
+{
+  [ -f "$tvwConfig" ] || die 'internal error'
+
+  grep -q TV_PKGTYPE=\"TAR_IN\" "$tvwConfig" && return	# previous TAR installation
+  grep -q TV_PKGTYPE=\"TAR_NI\" "$tvwConfig" && return	# previous TAR installation failed -> InstallFiles()
+  Rdie "\tTeamViewer seems to be installed already in '$installDir', but with a different package type ($(source "$tvwConfig"; echo $TV_PKGTYPE)).
+	  Please uninstall DEB/RPM package before trying to install from TAR package."
+}
+
+function InstallFiles()
+{
+  local binSrc="$TV_BIN_DIR"
+  local docSrc="$TV_BASE_DIR/doc"
+
+  AskPermission 'Installing files...' "Files will be installed in '$installDir'"
+
+  mkdir -p "$installDir" || Rdie "could not create $installDir"
+
+  ABecho 'Copying files...'
+  RenameOldDirs
+  DirLink "/var/log/teamviewer$TV_MAJOR" "$installDir/logfiles"      || Rdie 'fail (InstallFiles)'
+  DirLink '/etc/teamviewer'              "$installDir/config"        || Rdie 'fail (InstallFiles)'
+  ln -s "$installDir/tv_bin/script/teamviewer" '/usr/bin/teamviewer' || Rdie 'fail (InstallFiles)'
+ 
+  cp -r "$binSrc" "$installDir" || Rdie 'fail (InstallFiles)'
+  cp -r "$docSrc" "$installDir" || Rdie 'fail (InstallFiles)'
+
+  echo -e '  done\n'
+
+  sed -i 's/TAR_NI/TAR_IN/g' "$tvwConfig" || Rdie "Could not update '$tvwConfig'"  
+}
+
+function DirLink()
+{
+  local dir="$1"
+  local lnk="$2"
+
+  [ -h "$dir" ] && Rdie 'fail (DirLink)'
+  [ -d "$dir" ] || mkdir -p "$dir" || Rdie 'fail (DirLink)'
+  if [ -h "$lnk" ]; then
+    rm "$lnk"       || Rdie 'fail (DirLink)'
+  fi
+  
+  ln -s "$dir" "$lnk"
+}
+
+function RenameOldDirs()
+{
+  MoveDir    '/opt/teamviewer/config'   || Rdie 'fail (RenameOldDirs)'
+  MoveDir    '/opt/teamviewer/logfiles' || Rdie 'fail (RenameOldDirs)'
+  RemoveLink '/etc/teamviewer'          || Rdie 'fail (RenameOldDirs)'
+}
+
+function MoveDir()
+{
+  local name="$1"
+  local newName="$name.old"
+  local cntName="$newName"
+  local cnt=0
+
+  [ -h "$name" ] && return 0
+  [ -d "$name" ] || return 0
+
+  if [ -e "$newName" ]; then
+    while [ -e "$cntName" ] ; do
+      cntName="$newName$((++cnt))"
+    done
+    mv "$newName" "$cntName" || return 1
+  fi
+
+  mv "$name" "$newName" || return 1
+}
+
+function RemoveLink()
+{
+  local name="$1"
+  [ -h "$name" ] || return 0
+
+  rm "$name"
+}
+
+function AskPermission()
+{
+  local head="$1"
+  local msg="$2"
+  local return="$3"
+  local msel
+
+  local               question='    Continue (y) or abort (n) ?  [Y/n]? '
+  [ -n "$return" ] && question='    Continue (y) or skip (n) ?  [Y/n]? '
+
+  [ -n "$mainForce" ] && return		# don't ask
+
+  ABecho "$head"
+  IndentEcho "$msg" "    "
+  read -n 1 -p "$question" msel
+  echo -en '\n'
+  [ -z "$msel"   ] && return 0		# default = Y
+  [ "$msel" = Y  ] && return 0
+  [ "$msel" = y  ] && return 0
+  [ -n "$return" ] && return 1
+  echo
+  exit 1	# action was not sucessful, inform calling process
+}
+
+
+
+TVSetup "$@"

@@ -1,0 +1,58 @@
+{
+  "profiles": {
+    "Most Recent Version": {
+      "name": "Most Recent Version",
+      "javaArgs": "-client -Xmx1G -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy -Xmn128M",
+      "resolution": {
+        "width": 854,
+        "height": 480
+      },
+      "launcherVisibilityOnGameClose": "hide launcher and re-open when game closes"
+    },
+    "Most Recent Snapshot/Prerelease": {
+      "name": "Most Recent Snapshot/Prerelease",
+      "javaArgs": "-client -Xmx1G -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy -Xmn128M",
+      "resolution": {
+        "width": 854,
+        "height": 480
+      },
+      "allowedReleaseTypes": [
+        "snapshot",
+        "release"
+      ],
+      "launcherVisibilityOnGameClose": "hide launcher and re-open when game closes"
+    },
+    "1.8": {
+      "name": "1.8",
+      "lastVersionId": "1.8.9",
+      "javaArgs": "-client -Xmx1G -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy -Xmn128M",
+      "resolution": {
+        "width": 854,
+        "height": 480
+      },
+      "launcherVisibilityOnGameClose": "hide launcher and re-open when game closes"
+    }
+  },
+  "selectedProfile": "1.8",
+  "clientToken": "3781bc42-373f-422b-bbb4-c53caa8bd243",
+  "authenticationDatabase": {
+    "8b2aa72a4bda4bf3b5df66046f644373": {
+      "displayName": "Doctors",
+      "userProperties": [
+        {
+          "name": "twitch_access_token",
+          "value": "1s0ilzgq7hmlf1c92iy2wcwl9cix4z"
+        }
+      ],
+      "accessToken": "c8d86dec408c492cb7bf39c0adc5ac40",
+      "userid": "ce3343ebaa744cf6bef57ff209be6280",
+      "uuid": "8b2aa72a-4bda-4bf3-b5df-66046f644373",
+      "username": "hoffmeyer25@gmail.com"
+    }
+  },
+  "selectedUser": "8b2aa72a4bda4bf3b5df66046f644373",
+  "launcherVersion": {
+    "name": "1.6.61",
+    "format": 18
+  }
+}

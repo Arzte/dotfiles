@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Vestion=1.0
+Name=Gitter
+Comment=Gitter startup script
+Exec=/opt/Gitter/linux64/Gitter
+StartupNotify=false
+Terminal=false

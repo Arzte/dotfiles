@@ -1,0 +1,7 @@
+TeamViewer Linux makes use of the QTWebKit library.
+The QTWebKit library is based on the WebKit project (http://www.webkit.org/)
+and therefore licensed under LGPL (GNU Lesser General Public License).
+See LICENSE.LGPL for details.
+This libQTWebKit library is built from the unmodified QT source code version 4.8.6.
+The source code of QT - including QTWebKit - can be obtained at 
+http://www.teamviewer.com/link/?url=892927 or at http://qt-project.org/.

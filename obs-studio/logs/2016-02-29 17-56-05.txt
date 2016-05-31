@@ -1,0 +1,180 @@
+05:56:05 PM.904: Processor: 2 logical cores
+05:56:05 PM.904: Processor: AMD Turion Dual-Core RM-75
+05:56:05 PM.904: Physical Memory: 2760MB Total
+05:56:05 PM.904: Kernel Version: Linux 4.4.3_1
+05:56:05 PM.922: Distribution: "void" Unknown
+05:56:06 PM.130: OBS 0.0.1 (linux)
+05:56:06 PM.130: ---------------------------------
+05:56:06 PM.131: ---------------------------------
+05:56:06 PM.131: audio settings reset:
+05:56:06 PM.131: 	samples per sec: 44100
+05:56:06 PM.131: 	speakers:        2
+05:56:06 PM.682: OpenGL version: 3.3 (Core Profile) Mesa 11.1.2
+05:56:06 PM.682: 
+05:56:07 PM.021: ---------------------------------
+05:56:07 PM.021: video settings reset:
+05:56:07 PM.021: 	base resolution:   1366x768
+05:56:07 PM.021: 	output resolution: 1092x614
+05:56:07 PM.021: 	fps:               30/1
+05:56:07 PM.021: 	format:            NV12
+05:56:07 PM.118: ---------------------------------
+05:56:07 PM.151: Loading module: image-source.so
+05:56:07 PM.192: ---------------------------------
+05:56:07 PM.197: Loading module: linux-capture.so
+05:56:07 PM.218: ---------------------------------
+05:56:07 PM.241: Loading module: linux-decklink.so
+05:56:07 PM.283: No blackmagic support
+05:56:07 PM.283: Failed to start search for DeckLink devices
+05:56:07 PM.283: ---------------------------------
+05:56:07 PM.285: Loading module: linux-jack.so
+05:56:07 PM.286: ---------------------------------
+05:56:07 PM.290: Loading module: linux-pulseaudio.so
+05:56:07 PM.298: ---------------------------------
+05:56:07 PM.323: Loading module: linux-v4l2.so
+05:56:07 PM.365: ---------------------------------
+05:56:07 PM.419: Loading module: obs-ffmpeg.so
+05:56:07 PM.441: ---------------------------------
+05:56:07 PM.483: Loading module: obs-filters.so
+05:56:07 PM.519: ---------------------------------
+05:56:07 PM.567: Loading module: obs-outputs.so
+05:56:07 PM.594: ---------------------------------
+05:56:07 PM.624: Loading module: obs-transitions.so
+05:56:07 PM.669: ---------------------------------
+05:56:07 PM.670: Loading module: obs-x264.so
+05:56:07 PM.673: ---------------------------------
+05:56:07 PM.694: Loading module: rtmp-services.so
+05:56:07 PM.740: ---------------------------------
+05:56:07 PM.760: Loading module: text-freetype2.so
+05:56:07 PM.788: =====================================================================
+05:56:07 PM.788: output 'simple_stream' (rtmp_output) created
+05:56:07 PM.788: encoder 'simple_h264_stream' (obs_x264) created
+05:56:07 PM.789: AAC encoder bitrate mapping:
+05:56:07 PM.789: 	 32 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+05:56:07 PM.789: 	 64 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+05:56:07 PM.789: 	 96 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+05:56:07 PM.789: 	128 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+05:56:07 PM.789: 	160 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+05:56:07 PM.789: 	192 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+05:56:07 PM.789: 	224 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+05:56:07 PM.789: 	256 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+05:56:07 PM.789: 	288 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+05:56:07 PM.789: 	320 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+05:56:07 PM.789: encoder 'simple_aac' (ffmpeg_aac) created
+05:56:07 PM.789: output 'simple_file_output' (ffmpeg_muxer) created
+05:56:07 PM.932: service 'default_service' (rtmp_common) created
+05:56:08 PM.020: All scene data cleared
+05:56:08 PM.020: ------------------------------------------------
+05:56:08 PM.075: pulse-input: Server name: 'pulseaudio 8.0-rebootstrapped'
+05:56:08 PM.076: pulse-input: Sample spec is not valid
+05:56:08 PM.090: Failed to create source 'Desktop Audio'!
+05:56:08 PM.091: source 'Desktop Audio' (pulse_output_capture) created
+05:56:08 PM.228: pulse-input: Server name: 'pulseaudio 8.0-rebootstrapped'
+05:56:08 PM.228: pulse-input: Sample spec is not valid
+05:56:08 PM.257: Failed to create source 'Mic/Aux'!
+05:56:08 PM.258: source 'Mic/Aux' (pulse_input_capture) created
+05:56:08 PM.258: source 'Scene' (scene) created
+05:56:08 PM.260: xshm-input: Geometry 1366x768 @ 0,0
+05:56:08 PM.261: source 'Screen Capture (XSHM)' (xshm_input) created
+05:56:08 PM.476: == Profiler Results =============================
+05:56:08 PM.476: run_program_init: 4202.51 ms
+05:56:08 PM.476:  ┣OBSApp::AppInit: 136.173 ms
+05:56:08 PM.476:  ┃ ┗OBSApp::InitLocale: 69.147 ms
+05:56:08 PM.476:  ┗OBSApp::OBSInit: 3156.12 ms
+05:56:08 PM.476:    ┣obs_startup: 44.819 ms
+05:56:08 PM.476:    ┗OBSBasic::OBSInit: 2345.61 ms
+05:56:08 PM.476:      ┣OBSBasic::InitBasicConfig: 1.101 ms
+05:56:08 PM.477:      ┣OBSBasic::ResetAudio: 0.273 ms
+05:56:08 PM.477:      ┣OBSBasic::ResetVideo: 896.148 ms
+05:56:08 PM.477:      ┣OBSBasic::InitOBSCallbacks: 0.014 ms
+05:56:08 PM.477:      ┣OBSBasic::InitHotkeys: 0.084 ms
+05:56:08 PM.477:      ┣obs_load_all_modules: 760.276 ms
+05:56:08 PM.477:      ┃ ┣obs_init_module(image-source.so): 0.012 ms
+05:56:08 PM.477:      ┃ ┣obs_init_module(linux-capture.so): 14.125 ms
+05:56:08 PM.477:      ┃ ┣obs_init_module(linux-decklink.so): 0.688 ms
+05:56:08 PM.477:      ┃ ┣obs_init_module(linux-jack.so): 0.011 ms
+05:56:08 PM.477:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.022 ms
+05:56:08 PM.477:      ┃ ┣obs_init_module(linux-v4l2.so): 0.008 ms
+05:56:08 PM.477:      ┃ ┣obs_init_module(obs-ffmpeg.so): 0.052 ms
+05:56:08 PM.477:      ┃ ┣obs_init_module(obs-filters.so): 0.062 ms
+05:56:08 PM.477:      ┃ ┣obs_init_module(obs-outputs.so): 0.008 ms
+05:56:08 PM.477:      ┃ ┣obs_init_module(obs-transitions.so): 0.013 ms
+05:56:08 PM.477:      ┃ ┣obs_init_module(obs-x264.so): 0.007 ms
+05:56:08 PM.477:      ┃ ┣obs_init_module(rtmp-services.so): 28.404 ms
+05:56:08 PM.477:      ┃ ┗obs_init_module(text-freetype2.so): 0.058 ms
+05:56:08 PM.477:      ┣OBSBasic::ResetOutputs: 0.768 ms
+05:56:08 PM.477:      ┣OBSBasic::CreateHotkeys: 120.455 ms
+05:56:08 PM.477:      ┣OBSBasic::InitService: 23.257 ms
+05:56:08 PM.477:      ┣OBSBasic::InitPrimitives: 40.598 ms
+05:56:08 PM.477:      ┗OBSBasic::Load: 291.887 ms
+05:56:08 PM.477: =================================================
+05:56:08 PM.527: Update check: last known remote version is 0.4.0
+05:58:19 PM.077: v4l2-input: Start capture from 
+05:58:19 PM.077: v4l2-input: Unable to open device
+05:58:19 PM.077: v4l2-input: Initialization failed
+05:58:19 PM.078: source 'Video Capture Device (V4L2)' (v4l2_input) created
+05:58:19 PM.208: v4l2-input: Found device 'HP Webcam-101' at /dev/video0
+05:58:19 PM.213: v4l2-input: Found input 'Camera 1' (Index 0)
+05:58:19 PM.218: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+05:58:19 PM.219: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+05:58:19 PM.219: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+05:58:19 PM.219: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+05:58:19 PM.219: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+05:58:19 PM.224: v4l2-input: Stepwise and Continuous framesizes are currently hardcoded
+05:58:19 PM.228: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+05:58:19 PM.244: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+05:58:19 PM.244: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+05:58:19 PM.244: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+05:58:19 PM.244: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+05:58:19 PM.245: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+05:58:19 PM.249: v4l2-input: Stepwise and Continuous framesizes are currently hardcoded
+05:58:19 PM.252: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+05:58:19 PM.260: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+05:58:19 PM.304: v4l2-input: Start capture from /dev/video0
+05:58:19 PM.305: v4l2-input: Input: 0
+05:58:19 PM.343: v4l2-input: Resolution: 640x480
+05:58:19 PM.343: v4l2-input: Pixelformat: VYUY
+05:58:19 PM.343: v4l2-input: Linesize: 1280 Bytes
+05:58:19 PM.343: v4l2-input: Framerate: 24.00 fps
+05:58:53 PM.677: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+05:58:53 PM.839: v4l2-input: Stopped capture after 326 frames
+05:58:53 PM.996: v4l2-input: Start capture from /dev/video0
+05:58:53 PM.997: v4l2-input: Input: 0
+05:58:54 PM.016: v4l2-input: Resolution: 640x480
+05:58:54 PM.016: v4l2-input: Pixelformat: 21UY
+05:58:54 PM.016: v4l2-input: Linesize: 640 Bytes
+05:58:54 PM.016: v4l2-input: Framerate: 24.00 fps
+05:58:57 PM.368: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+05:58:57 PM.450: v4l2-input: Stopped capture after 32 frames
+05:58:57 PM.588: v4l2-input: Start capture from /dev/video0
+05:58:57 PM.589: v4l2-input: Input: 0
+05:58:57 PM.608: v4l2-input: Resolution: 640x480
+05:58:57 PM.608: v4l2-input: Pixelformat: 21VY
+05:58:57 PM.608: v4l2-input: Linesize: 640 Bytes
+05:58:57 PM.608: v4l2-input: Framerate: 24.00 fps
+05:59:04 PM.297: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+05:59:04 PM.371: v4l2-input: Stopped capture after 77 frames
+05:59:04 PM.522: v4l2-input: Start capture from /dev/video0
+05:59:04 PM.523: v4l2-input: Input: 0
+05:59:04 PM.560: v4l2-input: Resolution: 640x480
+05:59:04 PM.561: v4l2-input: Pixelformat: VYUY
+05:59:04 PM.561: v4l2-input: Linesize: 1280 Bytes
+05:59:04 PM.561: v4l2-input: Framerate: 24.00 fps
+05:59:09 PM.694: v4l2-input: Stopped capture after 55 frames
+05:59:09 PM.836: v4l2-input: Start capture from /dev/video0
+05:59:09 PM.839: v4l2-input: Input: 0
+05:59:09 PM.879: v4l2-input: Resolution: 640x480
+05:59:09 PM.879: v4l2-input: Pixelformat: VYUY
+05:59:09 PM.879: v4l2-input: Linesize: 1280 Bytes
+05:59:09 PM.917: v4l2-input: Framerate: 24.00 fps
+06:00:38 PM.229: pulse-input: Server name: 'pulseaudio 8.0-rebootstrapped'
+06:00:38 PM.229: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+06:00:38 PM.229: pulse-input: Started recording from 'alsa_input.pci-0000_00_07.0.analog-stereo'
+06:00:38 PM.230: source 'Audio Input Capture (PulseAudio)' (pulse_input_capture) created
+06:00:38 PM.788: adding 46 milliseconds of audio buffering, total audio buffering is now 46 milliseconds
+06:00:39 PM.176: adding 23 milliseconds of audio buffering, total audio buffering is now 69 milliseconds
+06:00:54 PM.966: adding 23 milliseconds of audio buffering, total audio buffering is now 92 milliseconds
+06:01:04 PM.560: source 'Text (FreeType 2)' (text_ft2_source) created
+06:02:32 PM.991: adding 23 milliseconds of audio buffering, total audio buffering is now 116 milliseconds
+06:16:34 PM.786: source 'Notice' (text_ft2_source) created
+06:17:09 PM.583: glGetTexImage failed, glGetError returned 0x505
+06:17:09 PM.583: device_stage_texture (GL) failed

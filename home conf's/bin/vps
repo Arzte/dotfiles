@@ -1,0 +1,50 @@
+#!/bin/bash
+
+# State the varibles
+forever=110
+secs=3
+
+# Ask if we want to connect
+read -r -p "About to login to doctors.us.to VPS server, Continue? [n/Y] " response
+case $response in
+    [nN]) # If the response was either n or N then exit after 5 seconds
+        echo "Nvm then, closing in five seconds...."
+	# Start the fancy countdown
+	while [ $secs -gt 0 ]; do
+   		echo -ne "$secs\033[0K\r"
+   		sleep 1
+   		: $((secs--))
+	done
+	# Exit the script
+        exit
+        ;;
+    *) # If the awnser was anything else then start the ssh session ###### NOTE TO SELF PORT IS ##### 60210 #
+        ssh -Y benjamin@68.38.215.174 # I'm using -Y for trusted x11 forwording
+	# When the ssh session ends, The while forever statment begins.
+	# While the forever varible is greater than or equal to 110,
+        while [ $forever -ge 110 ]
+        do
+	   # Ask if we want to quit
+           read -r -p "Do you want to quit?? [n/Y] " anwser
+           case $anwser in
+               [nN]) # If no then startup the ssh session again.
+                   ssh -Y benjamin@68.38.215.174
+                   ;; 
+                *) # If anything else, then start a countdown to exit
+                   echo "Exiting in five seconds...."
+		   # return of the fancy coutdown
+		   while [ $secs -gt 0 ]; do
+			echo -ne "$secs\033[0K\r"
+			sleep 1
+			: $((secs--))
+		   done
+		   # Now its time to exit
+                   exit
+                   ;;
+            esac
+# Here's the beuty of this, since forever is set to 110,
+# therefore the while statment will run forever until you kill it,
+# Or it gets the exit command. This way you will can always have ssh running easily with the default stuff
+        done
+        ;;
+esac

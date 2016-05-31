@@ -1,0 +1,13 @@
+[user]
+	email = thedoctorslife@users.noreply.github.com
+	name = TheDoctorsLife
+	signingkey = 5BD8E2AB
+[push]
+	default = simple
+	gpgsign = false
+[core]
+	editor = nano
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg2
